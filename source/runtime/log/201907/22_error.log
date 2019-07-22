@@ -1,9 +1,0 @@
----------------------------------------------------------------
-[ 2019-07-22T10:14:04+08:00 ] 61.158.152.139 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
-[ error ] [-1]缺少必要的参数：token
----------------------------------------------------------------
-[ 2019-07-22T10:32:20+08:00 ] 223.88.36.81 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
-[ error ] [-1]缺少必要的参数：token
----------------------------------------------------------------
-[ 2019-07-22T10:39:48+08:00 ] 117.136.36.207 GET jqg.wanheezg.com/index.php?s=/api/user.order/shareDetail&order_id=10325&wxapp_id=10001&token=
-[ error ] [-1]缺少必要的参数：token

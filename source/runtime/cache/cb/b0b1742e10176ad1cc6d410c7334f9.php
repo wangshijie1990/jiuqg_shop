@@ -1,4 +1,0 @@
-<?php
-//000001296000
- exit();?>
-a:5:{s:7:"10019_0";a:4:{s:8:"goods_id";s:5:"10019";s:9:"goods_num";i:1;s:12:"goods_sku_id";s:1:"0";s:11:"create_time";i:1563704180;}s:7:"10101_0";a:4:{s:8:"goods_id";s:5:"10101";s:9:"goods_num";i:1;s:12:"goods_sku_id";s:1:"0";s:11:"create_time";i:1563750064;}s:7:"10096_0";a:4:{s:8:"goods_id";s:5:"10096";s:9:"goods_num";i:1;s:12:"goods_sku_id";s:1:"0";s:11:"create_time";i:1563750084;}s:7:"10133_0";a:4:{s:8:"goods_id";s:5:"10133";s:9:"goods_num";i:1;s:12:"goods_sku_id";s:1:"0";s:11:"create_time";i:1563750255;}s:7:"10063_0";a:4:{s:8:"goods_id";s:5:"10063";s:9:"goods_num";i:1;s:12:"goods_sku_id";s:1:"0";s:11:"create_time";i:1563750290;}}
