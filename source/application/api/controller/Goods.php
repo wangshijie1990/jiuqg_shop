@@ -51,7 +51,8 @@ class Goods extends Controller
         // 多规格商品sku信息, todo: 已废弃 v1.1.25
         $specData = $goods['spec_type'] == 20 ? $model->getManySpecData($goods['spec_rel'], $goods['sku']) : null;
         $lastBuy=$model->getLastBuy($goods_id);
-        $transfer=intval(date('H'))<=11?'11:00前下单，预计下午18:00前送达':'11:00后下单，预计次日12:00前送达';
+       //$transfer=intval(date('H'))<=11?'11:00前下单，预计下午18:00前送达':'11:00后下单，预计次日12:00前送达';
+        $transfer = '23:59前下单，次日18:00前送达';
         return $this->renderSuccess([
             // 商品详情
             'detail' => $goods,

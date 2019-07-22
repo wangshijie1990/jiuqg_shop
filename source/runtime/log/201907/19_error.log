@@ -1,0 +1,674 @@
+---------------------------------------------------------------
+[ 2019-07-19T00:01:50+08:00 ] 1.198.212.171 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T00:14:25+08:00 ] 1.198.212.171 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=c4bf4f4560556578a86ffb9b1ed0ece6
+[ error ] [-1]没有找到用户信息
+---------------------------------------------------------------
+[ 2019-07-19T07:48:03+08:00 ] 106.34.69.124 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T08:38:50+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=99efa3fb466dbf5253058b9af16c484c
+[ error ] [-1]没有找到用户信息
+---------------------------------------------------------------
+[ 2019-07-19T08:41:56+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/api/shop.apply/index&referee_id=&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T08:42:28+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T08:42:40+08:00 ] 115.60.133.44 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=3a20c0b91b861bbb4a181fef28a01a7d
+[ error ] [-1]没有找到用户信息
+---------------------------------------------------------------
+[ 2019-07-19T08:42:47+08:00 ] 115.60.133.44 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=3a20c0b91b861bbb4a181fef28a01a7d
+[ error ] [-1]没有找到用户信息
+---------------------------------------------------------------
+[ 2019-07-19T08:42:57+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=742bdcf663696b1ecbc975898057f4c8
+[ error ] [-1]没有找到用户信息
+---------------------------------------------------------------
+[ 2019-07-19T08:51:08+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T08:53:39+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=f9482d1189eef371a657ad2676365a4e
+[ error ] [-1]没有找到用户信息
+---------------------------------------------------------------
+[ 2019-07-19T08:57:10+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T09:07:14+08:00 ] 220.248.107.99 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T09:07:19+08:00 ] 220.248.107.99 POST jqg.wanheezg.com/index.php?s=/api/user/login
+[ error ] [0]invalid code, hints: [ req_id: dejdzfyFe-pl8rqA ]
+---------------------------------------------------------------
+[ 2019-07-19T09:08:01+08:00 ] 220.248.107.99 POST jqg.wanheezg.com/index.php?s=/api/user/login
+[ error ] [0]invalid code, hints: [ req_id: DejdZ44ce-SWWtca ]
+---------------------------------------------------------------
+[ 2019-07-19T09:08:16+08:00 ] 220.248.107.99 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T09:38:34+08:00 ] 220.248.107.99 POST jqg.wanheezg.com/index.php?s=/api/user/login
+[ error ] [0]invalid code, hints: [ req_id: Sejdu7aLRa-frkMza ]
+---------------------------------------------------------------
+[ 2019-07-19T09:39:27+08:00 ] 220.248.107.99 POST jqg.wanheezg.com/index.php?s=/api/user/login
+[ error ] [0]invalid code, hints: [ req_id: tejdmqLnRa-8HIclA ]
+---------------------------------------------------------------
+[ 2019-07-19T09:57:08+08:00 ] 220.248.107.99 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T09:57:55+08:00 ] 220.248.107.99 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T09:58:53+08:00 ] 113.87.182.125 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T10:01:05+08:00 ] 220.248.107.99 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T10:02:07+08:00 ] 220.248.107.99 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T10:02:47+08:00 ] 220.248.107.99 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T10:13:27+08:00 ] 220.248.107.99 POST jqg.wanheezg.com/index.php?s=/api/user/login
+[ error ] [0]invalid code, hints: [ req_id: gEjdFMwgE-L.Ttza ]
+---------------------------------------------------------------
+[ 2019-07-19T10:14:47+08:00 ] 220.248.107.99 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T10:19:30+08:00 ] 220.248.107.99 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T10:20:03+08:00 ] 220.248.107.99 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T10:20:35+08:00 ] 220.248.107.99 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T10:22:43+08:00 ] 220.248.107.99 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T10:23:23+08:00 ] 220.248.107.99 POST jqg.wanheezg.com/index.php?s=/api/user/login
+[ error ] [0]invalid code, hints: [ req_id: lEjdUJyFe-qx1WGa ]
+---------------------------------------------------------------
+[ 2019-07-19T10:24:35+08:00 ] 220.248.107.99 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T10:24:45+08:00 ] 220.248.107.99 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T10:24:50+08:00 ] 220.248.107.99 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T10:24:52+08:00 ] 220.248.107.99 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T10:25:34+08:00 ] 220.248.107.99 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T10:25:38+08:00 ] 220.248.107.99 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=test
+[ error ] [-1]没有找到用户信息
+---------------------------------------------------------------
+[ 2019-07-19T10:26:21+08:00 ] 220.248.107.99 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=test
+[ error ] [-1]没有找到用户信息
+---------------------------------------------------------------
+[ 2019-07-19T10:26:48+08:00 ] 220.248.107.99 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=test
+[ error ] [-1]没有找到用户信息
+---------------------------------------------------------------
+[ 2019-07-19T10:26:51+08:00 ] 220.248.107.99 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=test
+[ error ] [-1]没有找到用户信息
+---------------------------------------------------------------
+[ 2019-07-19T10:26:53+08:00 ] 220.248.107.99 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=test
+[ error ] [-1]没有找到用户信息
+---------------------------------------------------------------
+[ 2019-07-19T10:26:55+08:00 ] 220.248.107.99 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=test
+[ error ] [-1]没有找到用户信息
+---------------------------------------------------------------
+[ 2019-07-19T10:27:31+08:00 ] 220.248.107.99 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=test
+[ error ] [-1]没有找到用户信息
+---------------------------------------------------------------
+[ 2019-07-19T10:28:11+08:00 ] 220.248.107.99 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=test
+[ error ] [-1]没有找到用户信息
+---------------------------------------------------------------
+[ 2019-07-19T10:28:14+08:00 ] 220.248.107.99 POST jqg.wanheezg.com/index.php?s=/api/user/login
+[ error ] [0]invalid code, hints: [ req_id: NEjdhNwgE-zTsWfA ]
+---------------------------------------------------------------
+[ 2019-07-19T10:34:07+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/api/shop.apply/index&referee_id=&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T10:35:03+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=be09803894f86453e5b59d6ae2d210d2
+[ error ] [-1]没有找到用户信息
+---------------------------------------------------------------
+[ 2019-07-19T10:50:21+08:00 ] 117.136.61.55 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T11:10:32+08:00 ] 223.88.36.81 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T11:10:34+08:00 ] 117.136.61.110 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T11:10:36+08:00 ] 223.88.36.81 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T11:10:38+08:00 ] 223.88.36.81 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T11:10:39+08:00 ] 223.88.36.81 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T11:10:40+08:00 ] 223.88.36.81 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T11:10:42+08:00 ] 223.88.36.81 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T11:10:50+08:00 ] 223.88.36.81 GET jqg.wanheezg.com/index.php?s=/api/user.order/shareDetail&order_id=10266&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T11:12:11+08:00 ] 115.60.134.230 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T11:14:16+08:00 ] 223.88.36.81 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T11:14:19+08:00 ] 223.88.36.81 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T11:14:21+08:00 ] 223.88.36.81 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T11:14:23+08:00 ] 223.88.36.81 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T11:14:25+08:00 ] 223.88.36.81 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T11:14:26+08:00 ] 223.88.36.81 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T11:15:18+08:00 ] 223.88.36.81 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T11:16:04+08:00 ] 223.88.0.248 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T11:16:11+08:00 ] 223.88.0.248 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T11:16:12+08:00 ] 223.88.0.248 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T11:16:13+08:00 ] 223.88.0.248 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T11:16:15+08:00 ] 223.88.0.248 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T11:16:17+08:00 ] 223.88.0.248 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T11:16:19+08:00 ] 223.88.0.248 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T11:16:21+08:00 ] 223.88.0.248 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T11:21:48+08:00 ] 125.40.66.237 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T11:21:53+08:00 ] 125.40.66.237 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T11:21:55+08:00 ] 125.40.66.237 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T11:21:57+08:00 ] 125.40.66.237 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T11:22:41+08:00 ] 171.9.139.137 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T11:24:17+08:00 ] 223.88.0.196 GET jqg.wanheezg.com/index.php?s=/api/user.order/shareDetail&order_id=10266&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T11:24:26+08:00 ] 223.88.0.196 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T11:28:47+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/api/user.order/agentDetail&order_id=10259&wxapp_id=10001&token=ba604722cb1ab6e926e6d6f83fbec91c
+[ error ] [0]订单不存在
+---------------------------------------------------------------
+[ 2019-07-19T11:31:58+08:00 ] 117.136.105.202 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T11:41:38+08:00 ] 171.8.134.111 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T11:44:59+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T11:49:28+08:00 ] 171.8.135.26 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T11:52:30+08:00 ] 36.19.42.252 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T12:12:32+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T12:36:30+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=6f7a62da0eb92e1039c50bcd70e7c893
+[ error ] [-1]没有找到用户信息
+---------------------------------------------------------------
+[ 2019-07-19T12:49:35+08:00 ] 61.158.152.235 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T12:49:40+08:00 ] 61.158.152.235 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T12:49:42+08:00 ] 61.158.152.235 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T12:49:44+08:00 ] 61.158.152.235 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T12:49:46+08:00 ] 61.158.152.235 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T12:50:08+08:00 ] 61.158.152.235 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T13:19:27+08:00 ] 171.8.134.111 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T13:28:09+08:00 ] 115.60.128.238 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T13:29:15+08:00 ] 223.104.187.206 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T13:29:15+08:00 ] 223.104.187.206 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T13:29:15+08:00 ] 223.104.187.206 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T13:30:04+08:00 ] 223.166.222.108 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T13:30:09+08:00 ] 223.166.222.108 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T13:30:16+08:00 ] 223.166.222.108 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T14:02:23+08:00 ] 182.119.58.21 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T14:30:02+08:00 ] 42.236.202.95 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T14:30:04+08:00 ] 42.236.202.95 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T14:30:05+08:00 ] 42.236.202.95 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T14:30:07+08:00 ] 42.236.202.95 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T14:44:22+08:00 ] 223.104.19.122 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T15:32:26+08:00 ] 123.121.50.13 POST jqg.wanheezg.com/index.php?s=/store/goods/batchstate
+[ error ] [0]method not exist:think\db\Query->pdetail
+[ error ] method not exist:think\db\Query->pdetail
+[ error ] #0 [internal function]: think\db\Query->__call('pdetail', Array)
+#1 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/Model.php(2206): call_user_func_array(Array, Array)
+#2 /www/wwwroot/jqg.wanheezg.com/shop/source/application/store/controller/Goods.php(141): think\Model::__callStatic('pdetail', Array)
+#3 [internal function]: app\store\controller\Goods->batchState('10200,10201,102...', '0')
+#4 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(343): ReflectionMethod->invokeArgs(Object(app\store\controller\Goods), Array)
+#5 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(611): think\App::invokeMethod(Array, Array)
+#6 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(456): think\App::module(Array, Array, true)
+#7 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(139): think\App::exec(Array, Array)
+#8 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/start.php(19): think\App::run()
+#9 /www/wwwroot/jqg.wanheezg.com/shop/web/index.php(12): require('/www/wwwroot/jq...')
+#10 {main}
+---------------------------------------------------------------
+[ 2019-07-19T15:34:39+08:00 ] 123.121.50.13 POST jqg.wanheezg.com/index.php?s=/store/goods/batchstate
+[ error ] [0]致命错误: Call to undefined method think\model\Collection::setGoodsListData()
+[ error ] Fatal error: Call to undefined method think\model\Collection::setGoodsListData()
+[ error ] #0 /www/wwwroot/jqg.wanheezg.com/shop/source/application/store/controller/Goods.php(141): app\common\model\Goods::pdetail('10200,10201,102...')
+#1 [internal function]: app\store\controller\Goods->batchState('10200,10201,102...', '0')
+#2 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(343): ReflectionMethod->invokeArgs(Object(app\store\controller\Goods), Array)
+#3 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(611): think\App::invokeMethod(Array, Array)
+#4 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(456): think\App::module(Array, Array, true)
+#5 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(139): think\App::exec(Array, Array)
+#6 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/start.php(19): think\App::run()
+#7 /www/wwwroot/jqg.wanheezg.com/shop/web/index.php(12): require('/www/wwwroot/jq...')
+#8 {main}
+---------------------------------------------------------------
+[ 2019-07-19T15:41:20+08:00 ] 223.88.0.248 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T15:47:04+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/store/goods/index
+[ error ] [0]语法解析错误: syntax error, unexpected 'rtrim' (T_STRING), expecting ')'
+[ error ] Parse error: syntax error, unexpected 'rtrim' (T_STRING), expecting ')'
+[ error ] #0 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/Loader.php(85): think\__include_file('/www/wwwroot/jq...')
+#1 [internal function]: think\Loader::autoload('app\\store\\contr...')
+#2 [internal function]: spl_autoload_call('app\\store\\contr...')
+#3 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/Loader.php(478): class_exists('app\\store\\contr...')
+#4 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(580): think\Loader::controller('goods', 'controller', false, 'Error')
+#5 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(456): think\App::module(Array, Array, true)
+#6 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(139): think\App::exec(Array, Array)
+#7 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/start.php(19): think\App::run()
+#8 /www/wwwroot/jqg.wanheezg.com/shop/web/index.php(12): require('/www/wwwroot/jq...')
+#9 {main}
+---------------------------------------------------------------
+[ 2019-07-19T15:47:07+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/store/goods/index
+[ error ] [0]语法解析错误: syntax error, unexpected 'rtrim' (T_STRING), expecting ')'
+[ error ] Parse error: syntax error, unexpected 'rtrim' (T_STRING), expecting ')'
+[ error ] #0 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/Loader.php(85): think\__include_file('/www/wwwroot/jq...')
+#1 [internal function]: think\Loader::autoload('app\\store\\contr...')
+#2 [internal function]: spl_autoload_call('app\\store\\contr...')
+#3 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/Loader.php(478): class_exists('app\\store\\contr...')
+#4 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(580): think\Loader::controller('goods', 'controller', false, 'Error')
+#5 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(456): think\App::module(Array, Array, true)
+#6 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(139): think\App::exec(Array, Array)
+#7 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/start.php(19): think\App::run()
+#8 /www/wwwroot/jqg.wanheezg.com/shop/web/index.php(12): require('/www/wwwroot/jq...')
+#9 {main}
+---------------------------------------------------------------
+[ 2019-07-19T15:47:18+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/store/goods/index
+[ error ] [0]语法解析错误: syntax error, unexpected 'rtrim' (T_STRING), expecting ')'
+[ error ] Parse error: syntax error, unexpected 'rtrim' (T_STRING), expecting ')'
+[ error ] #0 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/Loader.php(85): think\__include_file('/www/wwwroot/jq...')
+#1 [internal function]: think\Loader::autoload('app\\store\\contr...')
+#2 [internal function]: spl_autoload_call('app\\store\\contr...')
+#3 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/Loader.php(478): class_exists('app\\store\\contr...')
+#4 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(580): think\Loader::controller('goods', 'controller', false, 'Error')
+#5 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(456): think\App::module(Array, Array, true)
+#6 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(139): think\App::exec(Array, Array)
+#7 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/start.php(19): think\App::run()
+#8 /www/wwwroot/jqg.wanheezg.com/shop/web/index.php(12): require('/www/wwwroot/jq...')
+#9 {main}
+---------------------------------------------------------------
+[ 2019-07-19T15:47:34+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/store/goods/index
+[ error ] [0]语法解析错误: syntax error, unexpected 'rtrim' (T_STRING), expecting ')'
+[ error ] Parse error: syntax error, unexpected 'rtrim' (T_STRING), expecting ')'
+[ error ] #0 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/Loader.php(85): think\__include_file('/www/wwwroot/jq...')
+#1 [internal function]: think\Loader::autoload('app\\store\\contr...')
+#2 [internal function]: spl_autoload_call('app\\store\\contr...')
+#3 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/Loader.php(478): class_exists('app\\store\\contr...')
+#4 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(580): think\Loader::controller('goods', 'controller', false, 'Error')
+#5 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(456): think\App::module(Array, Array, true)
+#6 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(139): think\App::exec(Array, Array)
+#7 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/start.php(19): think\App::run()
+#8 /www/wwwroot/jqg.wanheezg.com/shop/web/index.php(12): require('/www/wwwroot/jq...')
+#9 {main}
+---------------------------------------------------------------
+[ 2019-07-19T15:47:36+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/store/goods/index
+[ error ] [0]语法解析错误: syntax error, unexpected 'rtrim' (T_STRING), expecting ')'
+[ error ] Parse error: syntax error, unexpected 'rtrim' (T_STRING), expecting ')'
+[ error ] #0 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/Loader.php(85): think\__include_file('/www/wwwroot/jq...')
+#1 [internal function]: think\Loader::autoload('app\\store\\contr...')
+#2 [internal function]: spl_autoload_call('app\\store\\contr...')
+#3 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/Loader.php(478): class_exists('app\\store\\contr...')
+#4 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(580): think\Loader::controller('goods', 'controller', false, 'Error')
+#5 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(456): think\App::module(Array, Array, true)
+#6 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(139): think\App::exec(Array, Array)
+#7 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/start.php(19): think\App::run()
+#8 /www/wwwroot/jqg.wanheezg.com/shop/web/index.php(12): require('/www/wwwroot/jq...')
+#9 {main}
+---------------------------------------------------------------
+[ 2019-07-19T15:48:19+08:00 ] 123.121.50.13 GET jqg.wanheezg.com/index.php?s=%2Fstore%2Fgoods%2Findex&page=13
+[ error ] [0]语法解析错误: syntax error, unexpected 'rtrim' (T_STRING), expecting ')'
+[ error ] Parse error: syntax error, unexpected 'rtrim' (T_STRING), expecting ')'
+[ error ] #0 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/Loader.php(85): think\__include_file('/www/wwwroot/jq...')
+#1 [internal function]: think\Loader::autoload('app\\store\\contr...')
+#2 [internal function]: spl_autoload_call('app\\store\\contr...')
+#3 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/Loader.php(478): class_exists('app\\store\\contr...')
+#4 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(580): think\Loader::controller('goods', 'controller', false, 'Error')
+#5 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(456): think\App::module(Array, Array, true)
+#6 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(139): think\App::exec(Array, Array)
+#7 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/start.php(19): think\App::run()
+#8 /www/wwwroot/jqg.wanheezg.com/shop/web/index.php(12): require('/www/wwwroot/jq...')
+#9 {main}
+---------------------------------------------------------------
+[ 2019-07-19T15:48:50+08:00 ] 123.121.50.13 GET jqg.wanheezg.com/index.php?s=%2Fstore%2Fgoods%2Findex&page=13
+[ error ] [0]语法解析错误: syntax error, unexpected 'if' (T_IF)
+[ error ] Parse error: syntax error, unexpected 'if' (T_IF)
+[ error ] #0 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/Loader.php(85): think\__include_file('/www/wwwroot/jq...')
+#1 [internal function]: think\Loader::autoload('app\\store\\contr...')
+#2 [internal function]: spl_autoload_call('app\\store\\contr...')
+#3 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/Loader.php(478): class_exists('app\\store\\contr...')
+#4 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(580): think\Loader::controller('goods', 'controller', false, 'Error')
+#5 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(456): think\App::module(Array, Array, true)
+#6 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(139): think\App::exec(Array, Array)
+#7 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/start.php(19): think\App::run()
+#8 /www/wwwroot/jqg.wanheezg.com/shop/web/index.php(12): require('/www/wwwroot/jq...')
+#9 {main}
+---------------------------------------------------------------
+[ 2019-07-19T15:49:16+08:00 ] 123.121.50.13 GET jqg.wanheezg.com/index.php?s=%2Fstore%2Fgoods%2Findex&page=13
+[ error ] [0]语法解析错误: syntax error, unexpected 'if' (T_IF)
+[ error ] Parse error: syntax error, unexpected 'if' (T_IF)
+[ error ] #0 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/Loader.php(85): think\__include_file('/www/wwwroot/jq...')
+#1 [internal function]: think\Loader::autoload('app\\store\\contr...')
+#2 [internal function]: spl_autoload_call('app\\store\\contr...')
+#3 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/Loader.php(478): class_exists('app\\store\\contr...')
+#4 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(580): think\Loader::controller('goods', 'controller', false, 'Error')
+#5 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(456): think\App::module(Array, Array, true)
+#6 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(139): think\App::exec(Array, Array)
+#7 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/start.php(19): think\App::run()
+#8 /www/wwwroot/jqg.wanheezg.com/shop/web/index.php(12): require('/www/wwwroot/jq...')
+#9 {main}
+---------------------------------------------------------------
+[ 2019-07-19T15:49:54+08:00 ] 123.121.50.13 GET jqg.wanheezg.com/index.php?s=%2Fstore%2Fgoods%2Findex&page=13
+[ error ] [0]语法解析错误: syntax error, unexpected '$i' (T_VARIABLE)
+[ error ] Parse error: syntax error, unexpected '$i' (T_VARIABLE)
+[ error ] #0 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/Loader.php(85): think\__include_file('/www/wwwroot/jq...')
+#1 [internal function]: think\Loader::autoload('app\\store\\contr...')
+#2 [internal function]: spl_autoload_call('app\\store\\contr...')
+#3 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/Loader.php(478): class_exists('app\\store\\contr...')
+#4 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(580): think\Loader::controller('goods', 'controller', false, 'Error')
+#5 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(456): think\App::module(Array, Array, true)
+#6 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(139): think\App::exec(Array, Array)
+#7 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/start.php(19): think\App::run()
+#8 /www/wwwroot/jqg.wanheezg.com/shop/web/index.php(12): require('/www/wwwroot/jq...')
+#9 {main}
+---------------------------------------------------------------
+[ 2019-07-19T15:50:12+08:00 ] 123.121.50.13 GET jqg.wanheezg.com/index.php?s=%2Fstore%2Fgoods%2Findex&page=13
+[ error ] [0]语法解析错误: syntax error, unexpected ')'
+[ error ] Parse error: syntax error, unexpected ')'
+[ error ] #0 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/Loader.php(85): think\__include_file('/www/wwwroot/jq...')
+#1 [internal function]: think\Loader::autoload('app\\store\\contr...')
+#2 [internal function]: spl_autoload_call('app\\store\\contr...')
+#3 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/Loader.php(478): class_exists('app\\store\\contr...')
+#4 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(580): think\Loader::controller('goods', 'controller', false, 'Error')
+#5 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(456): think\App::module(Array, Array, true)
+#6 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(139): think\App::exec(Array, Array)
+#7 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/start.php(19): think\App::run()
+#8 /www/wwwroot/jqg.wanheezg.com/shop/web/index.php(12): require('/www/wwwroot/jq...')
+#9 {main}
+---------------------------------------------------------------
+[ 2019-07-19T15:51:00+08:00 ] 123.121.50.13 GET jqg.wanheezg.com/index.php?s=%2Fstore%2Fgoods%2Findex&page=13
+[ error ] [0]语法解析错误: syntax error, unexpected ')'
+[ error ] Parse error: syntax error, unexpected ')'
+[ error ] #0 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/Loader.php(85): think\__include_file('/www/wwwroot/jq...')
+#1 [internal function]: think\Loader::autoload('app\\store\\contr...')
+#2 [internal function]: spl_autoload_call('app\\store\\contr...')
+#3 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/Loader.php(478): class_exists('app\\store\\contr...')
+#4 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(580): think\Loader::controller('goods', 'controller', false, 'Error')
+#5 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(456): think\App::module(Array, Array, true)
+#6 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(139): think\App::exec(Array, Array)
+#7 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/start.php(19): think\App::run()
+#8 /www/wwwroot/jqg.wanheezg.com/shop/web/index.php(12): require('/www/wwwroot/jq...')
+#9 {main}
+---------------------------------------------------------------
+[ 2019-07-19T15:51:04+08:00 ] 123.121.50.13 GET jqg.wanheezg.com/index.php?s=%2Fstore%2Fgoods%2Findex&page=13
+[ error ] [0]语法解析错误: syntax error, unexpected ')'
+[ error ] Parse error: syntax error, unexpected ')'
+[ error ] #0 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/Loader.php(85): think\__include_file('/www/wwwroot/jq...')
+#1 [internal function]: think\Loader::autoload('app\\store\\contr...')
+#2 [internal function]: spl_autoload_call('app\\store\\contr...')
+#3 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/Loader.php(478): class_exists('app\\store\\contr...')
+#4 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(580): think\Loader::controller('goods', 'controller', false, 'Error')
+#5 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(456): think\App::module(Array, Array, true)
+#6 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(139): think\App::exec(Array, Array)
+#7 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/start.php(19): think\App::run()
+#8 /www/wwwroot/jqg.wanheezg.com/shop/web/index.php(12): require('/www/wwwroot/jq...')
+#9 {main}
+---------------------------------------------------------------
+[ 2019-07-19T15:51:10+08:00 ] 123.121.50.13 GET jqg.wanheezg.com/index.php?s=%2Fstore%2Fgoods%2Findex&page=13
+[ error ] [0]语法解析错误: syntax error, unexpected ')'
+[ error ] Parse error: syntax error, unexpected ')'
+[ error ] #0 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/Loader.php(85): think\__include_file('/www/wwwroot/jq...')
+#1 [internal function]: think\Loader::autoload('app\\store\\contr...')
+#2 [internal function]: spl_autoload_call('app\\store\\contr...')
+#3 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/Loader.php(478): class_exists('app\\store\\contr...')
+#4 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(580): think\Loader::controller('goods', 'controller', false, 'Error')
+#5 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(456): think\App::module(Array, Array, true)
+#6 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(139): think\App::exec(Array, Array)
+#7 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/start.php(19): think\App::run()
+#8 /www/wwwroot/jqg.wanheezg.com/shop/web/index.php(12): require('/www/wwwroot/jq...')
+#9 {main}
+---------------------------------------------------------------
+[ 2019-07-19T16:02:03+08:00 ] 223.104.19.61 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=a22d594a177895ebc73fe7ffe4a741b2
+[ error ] [-1]没有找到用户信息
+---------------------------------------------------------------
+[ 2019-07-19T16:17:03+08:00 ] 1.198.213.77 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T17:05:37+08:00 ] 221.15.166.72 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T17:15:16+08:00 ] 117.136.44.254 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T17:23:24+08:00 ] 222.137.133.177 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T17:28:20+08:00 ] 219.155.56.159 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T17:40:14+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=4554adbfd88d3659f9448d5eaf52ea7c
+[ error ] [-1]没有找到用户信息
+---------------------------------------------------------------
+[ 2019-07-19T17:41:47+08:00 ] 223.88.64.195 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T17:41:57+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T17:42:19+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T17:42:31+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T17:42:37+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T17:42:38+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T17:42:58+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T18:24:38+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=36743f36a54f4fa725968fd1ed4bcea8
+[ error ] [-1]没有找到用户信息
+---------------------------------------------------------------
+[ 2019-07-19T18:26:36+08:00 ] 171.9.136.114 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T18:41:35+08:00 ] 106.34.144.218 GET jqg.wanheezg.com/index.php?s=/api/order/buyNow&delivery=0&shop_id=10042&coupon_id=0&goods_id=10016&goods_num=1&goods_sku_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T18:53:06+08:00 ] 117.136.44.195 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T19:19:31+08:00 ] 125.46.210.156 POST jqg.wanheezg.com/index.php?s=/store/shop.apply/submit
+[ error ] [0]variable type error： array
+[ error ] variable type error： array
+[ error ] #0 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/Response.php(94): think\Response->getContent()
+#1 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/start.php(19): think\Response->send()
+#2 /www/wwwroot/jqg.wanheezg.com/shop/web/index.php(12): require('/www/wwwroot/jq...')
+#3 {main}
+---------------------------------------------------------------
+[ 2019-07-19T19:28:49+08:00 ] 223.88.64.98 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T19:28:54+08:00 ] 223.88.64.98 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T19:28:55+08:00 ] 223.88.64.98 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T19:28:57+08:00 ] 223.88.64.98 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T19:28:59+08:00 ] 223.88.64.98 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T19:29:02+08:00 ] 223.88.64.98 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T19:29:04+08:00 ] 223.88.64.98 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T19:31:24+08:00 ] 117.136.44.195 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T19:38:07+08:00 ] 123.160.235.151 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T19:38:10+08:00 ] 123.160.235.151 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T19:38:12+08:00 ] 123.160.235.151 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T19:38:13+08:00 ] 123.160.235.151 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T19:38:15+08:00 ] 123.160.235.151 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T19:38:16+08:00 ] 123.160.235.151 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T19:38:18+08:00 ] 123.160.235.151 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T19:38:19+08:00 ] 123.160.235.151 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T19:38:20+08:00 ] 123.160.235.151 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T19:38:21+08:00 ] 123.160.235.151 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T20:41:21+08:00 ] 117.136.44.158 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T21:16:21+08:00 ] 182.123.62.14 GET jqg.wanheezg.com/index.php?s=/api/user.order/shareDetail&order_id=10269&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T21:48:44+08:00 ] 223.88.64.119 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T22:21:08+08:00 ] 223.104.105.119 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T22:21:10+08:00 ] 223.104.105.119 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T22:52:07+08:00 ] 61.158.149.226 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T22:52:22+08:00 ] 61.158.149.226 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-19T22:54:39+08:00 ] 221.15.175.105 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token

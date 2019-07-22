@@ -65,7 +65,8 @@ class Order extends Controller
         );
         // 获取订单确认信息
         $orderInfo = $Checkout->onCheckout($this->user, $goodsList);
-        $transfer=intval(date('H'))<=11?'11:00前下单，预计下午18:00前送达':'11:00后下单，预计次日12:00前送达';
+       //$transfer=intval(date('H'))<=11?'11:00前下单，预计下午18:00前送达':'11:00后下单，预计次日12:00前送达';
+        $transfer = '23:59前下单，次日18:00前送达';
         $orderInfo['transfer']=$transfer;
         if ($this->request->isGet()) {
             return $this->renderSuccess($orderInfo);
@@ -116,6 +117,7 @@ class Order extends Controller
         $goodsList = $CartModel->getList($params['cart_ids']);
         // 获取订单结算信息
         $orderInfo = $Checkout->onCheckout($this->user, $goodsList);
+ 
         if ($this->request->isGet()) {
             return $this->renderSuccess($orderInfo);
         }

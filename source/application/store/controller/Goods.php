@@ -129,7 +129,37 @@ class Goods extends Controller
         }
         return $this->renderSuccess('操作成功');
     }
-
+	/**
+     * 批量修改商品状态
+     * @param $goods_id
+     * @param boolean $state
+     * @return array
+     */
+    public function batchState($goods_id, $state)
+    {
+      	$goodsArr = explode(',',rtrim($goods_id,','));
+        if(empty($goodsArr)) return $this->renderError('操作失败');
+        $i = 0;
+        foreach($goodsArr as $val){
+          	$result = true;
+         	// 商品详情
+        	$model = GoodsModel::detail($val);
+          	if (!$model->setStatus($state)) {
+            	$result = false;
+              	break;
+       	 	}
+          	$i++;
+        }
+        if($result==false){
+           //重新修改商品的状态
+           for($j=0;$j<$j;$j++){
+             	$model = GoodsModel::detail($goodsArr[$j]);
+          		$model->setStatus(!$state);
+           }
+           return $this->renderError('操作失败');
+        }
+        return $this->renderSuccess('操作成功');
+    }
     /**
      * 删除商品
      * @param $goods_id
@@ -144,5 +174,21 @@ class Goods extends Controller
         }
         return $this->renderSuccess('删除成功');
     }
-
+  	/**
+     * 批量删除商品
+     * @param $goods_id
+     * @return array
+     */
+    public function pdelete($goods_id)
+    {
+      	$goodsArr = explode(',',rtrim($goods_id,','));
+        if(empty($goodsArr)) return $this->renderError('操作失败');
+        foreach($goodsArr as $val){
+         	// 商品详情
+        	$model = GoodsModel::detail($val);
+          	$model->setDelete();
+        }
+        return $this->renderSuccess('操作成功');
+    }
+	
 }

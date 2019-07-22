@@ -10,7 +10,7 @@
                     <div class="page_toolbar am-margin-bottom-xs am-cf">
                         <form class="toolbar-form" action="">
                             <input type="hidden" name="s" value="/<?= $request->pathinfo() ?>">
-                            <div class="am-u-sm-12 am-u-md-3">
+                            <div class="am-u-sm-12 am-u-md-1">
                                 <div class="am-form-group">
                                     <?php if (checkPrivilege('goods/add')): ?>
                                         <div class="am-btn-group am-btn-group-xs">
@@ -22,7 +22,43 @@
                                     <?php endif; ?>
                                 </div>
                             </div>
-                            <div class="am-u-sm-12 am-u-md-9">
+                          <div class="am-u-sm-12 am-u-md-1">
+                                <div class="am-form-group">
+                                  <?php if (checkPrivilege('goods/add')): ?>
+                                        <div class="am-btn-group am-btn-group-xs">
+                                            <a class="am-btn am-btn-success pj-state"
+                                               href="javascript:void(0)" data-state="20">
+                                               上架
+                                            </a>
+                                        </div>
+                                   <?php endif; ?>
+                                </div>
+                            </div>
+                          <div class="am-u-sm-12 am-u-md-1">
+                                <div class="am-form-group">
+                                  <?php if (checkPrivilege('goods/add')): ?>
+                                        <div class="am-btn-group am-btn-group-xs">
+                                            <a class="am-btn am-btn-warning pj-state"
+                                               href="javascript:void(0)" data-state="10">
+                                               下架
+                                            </a>
+                                        </div>
+                                   <?php endif; ?>
+                                </div>
+                            </div>
+                          	<div class="am-u-sm-12 am-u-md-1">
+                                <div class="am-form-group">
+                                  <?php if (checkPrivilege('goods/pdelete')): ?>
+                                        <div class="am-btn-group am-btn-group-xs">
+                                            <a class="am-btn am-btn-danger pj-delete"
+                                               href="javascript:void(0)">
+                                               删除
+                                            </a>
+                                        </div>
+                                   <?php endif; ?>
+                                </div>
+                            </div>
+                            <div class="am-u-sm-12 am-u-md-8">
                                 <div class="am fr">
                                     <div class="am-form-group am-fl">
                                         <?php $category_id = $request->get('category_id') ?: null; ?>
@@ -75,6 +111,7 @@
                          tpl-table-black am-text-nowrap">
                             <thead>
                             <tr>
+                              	<th><input type="checkbox" onclick="$('input[name*=\'selected\']').prop('checked', this.checked);"></th>
                                 <th>商品ID</th>
                                 <th>商品图片</th>
                                 <th>商品名称</th>
@@ -89,6 +126,9 @@
                             <tbody>
                             <?php if (!$list->isEmpty()): foreach ($list as $item): ?>
                                 <tr>
+                                  	<td class="am-text-middle">
+                                        <input type="checkbox" name="selected" value="<?= $item['goods_id'] ?>">
+                                    </td>
                                     <td class="am-text-middle"><?= $item['goods_id'] ?></td>
                                     <td class="am-text-middle">
                                         <a href="<?= $item['image'][0]['file_path'] ?>"
@@ -180,10 +220,73 @@
                 });
 
         });
-
+		
+      	// 批量商品状态
+        $('.pj-state').click(function () {
+           var state = parseInt($(this).data('state'));
+            // 验证权限
+            if (!"<?= checkPrivilege('goods/batchState')?>") {
+                return false;
+            }
+            var data="";
+            $('input[name=selected]').each(function(){
+                if($(this).get(0).checked==true){
+                    data=data+$(this).val()+",";
+                }
+            });
+            if(data == false){
+                layer.alert('请选择需要'+(state=== 10 ? '下架' : '上架')+'的商品');
+                return false;
+            }
+            layer.confirm('确定要批量' + (state === 10 ? '下架' : '上架') + '这些商品吗？'
+                , {title: '友情提示'}
+                , function (index) {
+                    $.post("<?= url('goods/batchState') ?>"
+                        , {
+                            goods_id: data,
+                            state: Number(!(state === 10))
+                        }
+                        , function (result) {
+                            result.code === 1 ? $.show_success(result.msg, result.url)
+                                : $.show_error(result.msg);
+                        });
+                    layer.close(index);
+                });
+        });
         // 删除元素
         var url = "<?= url('goods/delete') ?>";
         $('.item-delete').delete('goods_id', url);
+      
+      	// 批量删除商品
+        $('.pj-delete').click(function () {
+            // 验证权限
+            if (!"<?= checkPrivilege('goods/pdelete')?>") {
+                return false;
+            }
+            var data="";
+            $('input[name=selected]').each(function(){
+                if($(this).get(0).checked==true){
+                    data=data+$(this).val()+",";
+                }
+            });
+            if(data == false){
+                layer.alert('请选择需要删除的商品');
+                return false;
+            }
+            layer.confirm('确定要批量删除这些商品吗？'
+                , {title: '友情提示'}
+                , function (index) {
+                    $.post("<?= url('goods/pdelete') ?>"
+                        , {
+                            goods_id: data,
+                        }
+                        , function (result) {
+                            result.code === 1 ? $.show_success(result.msg, result.url)
+                                : $.show_error(result.msg);
+                        });
+                    layer.close(index);
+                });
+        });
 
     });
 </script>

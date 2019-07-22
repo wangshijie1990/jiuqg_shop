@@ -207,7 +207,7 @@ class Goods extends BaseModel
         // 排序规则
         $sort = [];
         if ($params['sortType'] === 'all') {
-            $hour = date('H');
+          	$hour = date('H');
             if($hour>6 && $hour<=12){
                 $sort = ['goods_sort', 'goods_id' => 'desc'];
             }elseif($hour>12 && $hour<=18){
@@ -391,7 +391,6 @@ class Goods extends BaseModel
         // 整理列表数据并返回
         return $model->setGoodsListData($model, false);
     }
-
     /**
      * 指定的商品规格信息
      * @param static $goods 商品详情

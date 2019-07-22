@@ -1,0 +1,44 @@
+---------------------------------------------------------------
+[ 2019-07-12T08:49:54+08:00 ] 61.158.149.115 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-12T09:06:45+08:00 ] 125.46.211.38 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-12T09:08:35+08:00 ] 125.46.211.38 GET jqg.wanheezg.com/index.php?s=/api/cart/lists&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-12T15:17:18+08:00 ] 125.46.211.38 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-12T15:17:58+08:00 ] 125.46.211.38 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-12T15:20:31+08:00 ] 125.46.211.38 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-12T15:20:36+08:00 ] 125.46.211.38 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-12T15:30:50+08:00 ] 223.166.222.108 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-12T15:31:13+08:00 ] 103.7.29.6 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-12T17:12:39+08:00 ] 117.136.44.139 GET jqg.wanheezg.com/index.php?s=/api/page/index&page_id=0&wxapp_id=10001&token=
+[ error ] [-1]缺少必要的参数：token
+---------------------------------------------------------------
+[ 2019-07-12T19:03:04+08:00 ] 125.46.211.38 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fdb14537f0d4fbf6e37b7074757cf633
+[ error ] [2]number_format() expects parameter 1 to be float, array given
+[ error ] number_format() expects parameter 1 to be float, array given
+[ error ] #0 [internal function]: think\Error::appError(2, 'number_format()...', '/www/wwwroot/jq...', 103, Array)
+#1 /www/wwwroot/jqg.wanheezg.com/shop/source/application/api/controller/shop/Clerk.php(103): number_format(Array, 2)
+#2 [internal function]: app\api\controller\shop\Clerk->center()
+#3 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(343): ReflectionMethod->invokeArgs(Object(app\api\controller\shop\Clerk), Array)
+#4 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(611): think\App::invokeMethod(Array, Array)
+#5 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(456): think\App::module(Array, Array, true)
+#6 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/library/think/App.php(139): think\App::exec(Array, Array)
+#7 /www/wwwroot/jqg.wanheezg.com/shop/source/thinkphp/start.php(19): think\App::run()
+#8 /www/wwwroot/jqg.wanheezg.com/shop/web/index.php(12): require('/www/wwwroot/jq...')
+#9 {main}

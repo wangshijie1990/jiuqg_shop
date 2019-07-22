@@ -1,0 +1,2698 @@
+---------------------------------------------------------------
+[ 2019-07-20T07:29:19+08:00 ] 115.60.106.36 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=45875b85edc6132e720fbd49bbaa5e2b
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563492559 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563492559 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563492559 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563492559 --orderIds [] --userDatas []
+[ yoshop-info ] UserCoupon --setExpired --couponIds []
+[ yoshop-info ] array (
+  'describe' => '获取access_token',
+  'url' => 'https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx1607c34e8bf483ad&secret=6a0ad7d8579db45b2c5b1f6880bf1cb8',
+  'appId' => 'wx1607c34e8bf483ad',
+  'result' => '{"access_token":"23_fh5tDwnUbotSIRYKjriy3BP70735XWv-9gzK4ZwgGJxujaQjrI-1p7PDSgkCq4Vklz0d_psZWvafZuEfuQ6YA_0PI6zsYMQTIc-Rd836GaGQgXUzhcxJdonurPypX5P8e6gtQkehqPkyERClZOVcAGALAH","expires_in":7200}',
+)
+[ yoshop-info ] array (
+  'describe' => '获取小程序码',
+  'params' => 
+  array (
+    'scene' => 'uid:10170',
+    'width' => 280,
+    'page' => 'pages/store/check/all',
+  ),
+  'result' => 'image',
+)
+---------------------------------------------------------------
+[ 2019-07-20T08:30:19+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/store/index/index
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563496219 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563496219 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563496219 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563496219 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T08:30:42+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=df1dbfd816320067389573a5e265f2c8
+[ yoshop-info ] UserCoupon --setExpired --couponIds []
+---------------------------------------------------------------
+[ 2019-07-20T08:41:26+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/store/index/index
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563496886 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563496886 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563496886 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563496886 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T08:52:15+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/store/order/all_list
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563497535 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563497535 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563497535 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563497535 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T09:02:30+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/store/order/all_list
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563498150 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563498150 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563498150 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563498150 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T09:23:08+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/store/order/all_list
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563499388 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563499388 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563499388 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563499388 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T09:23:59+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Order --close --close_days 1 --deadline_time 1563499439 --orderIds []
+[ yoshop-info ] behavior sharing Order --receive --receive_days 1 --deadline_time 1563499439 --orderIds []
+[ yoshop-info ] behavior sharing Order --setIncUserExpend --refund_days 1 --deadline_time 1563499439 --orderIds [] --userDatas []
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T09:24:57+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T09:35:06+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.order/lists&page=1&dataType=all&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563500106 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563500106 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563500106 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563500106 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T09:35:06+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T09:35:17+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] UserCoupon --setExpired --couponIds []
+---------------------------------------------------------------
+[ 2019-07-20T09:45:15+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=%2Fstore%2Forder%2Fall_list&dataType=all&delivery_type=&extract_shop_id=&start_time=2019-07-19&end_time=&search=&page=2
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563500715 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563500715 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563500715 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563500715 --orderIds [10263] --userDatas {"10131":2.98}
+---------------------------------------------------------------
+[ 2019-07-20T10:05:21+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/store/order/all_list
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563501921 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563501921 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563501921 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563501921 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T10:10:53+08:00 ] 117.136.104.250 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=31f866fa2dbb86e7b278058fa88592d8
+[ yoshop-info ] array (
+  'describe' => '获取access_token',
+  'url' => 'https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx1607c34e8bf483ad&secret=6a0ad7d8579db45b2c5b1f6880bf1cb8',
+  'appId' => 'wx1607c34e8bf483ad',
+  'result' => '{"access_token":"23_JHr_PGw8SjX6roNBqvTKwmra5D-vemlVWb69NtuU8PBnm4laUMnImC6CIclc5iZPFdMZ7SbXjroTAUsF7m62jRxuCcm8rIEG4E9lH5KbmffpkDH5qI3RHXmLoCQCCOjAIATTF","expires_in":7200}',
+)
+[ yoshop-info ] array (
+  'describe' => '获取小程序码',
+  'params' => 
+  array (
+    'scene' => 'uid:10171',
+    'width' => 280,
+    'page' => 'pages/store/check/all',
+  ),
+  'result' => 'image',
+)
+---------------------------------------------------------------
+[ 2019-07-20T10:16:29+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=%2Fstore%2Forder%2Fall_list&page=2
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563502589 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563502589 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563502589 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563502589 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T10:19:32+08:00 ] 117.136.104.127 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=ba6095e9f55ca5151da8fc53178863d6
+[ yoshop-info ] array (
+  'describe' => '获取小程序码',
+  'params' => 
+  array (
+    'scene' => 'uid:10172',
+    'width' => 280,
+    'page' => 'pages/store/check/all',
+  ),
+  'result' => 'image',
+)
+---------------------------------------------------------------
+[ 2019-07-20T10:21:32+08:00 ] 1.198.208.159 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=3f3907cd146d6dade62a88d5e15bbbb8
+[ yoshop-info ] array (
+  'describe' => '获取小程序码',
+  'params' => 
+  array (
+    'scene' => 'uid:10166',
+    'width' => 280,
+    'page' => 'pages/store/check/all',
+  ),
+  'result' => 'image',
+)
+---------------------------------------------------------------
+[ 2019-07-20T10:24:30+08:00 ] 140.207.54.75 POST jqg.wanheezg.com/notice.php
+[ yoshop-info ] <xml><appid><![CDATA[wx1607c34e8bf483ad]]></appid>
+<attach><![CDATA[{"order_type":10}]]></attach>
+<bank_type><![CDATA[CMBC_CREDIT]]></bank_type>
+<cash_fee><![CDATA[2760]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1494678572]]></mch_id>
+<nonce_str><![CDATA[90f33c128c7eada75ebbfbebb443ed75]]></nonce_str>
+<openid><![CDATA[ofFaL5VhNeu0qKiOPid7kI1WL0Ko]]></openid>
+<out_trade_no><![CDATA[2019072053981019]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[05ACCD4822895ED70D10479862A31E69]]></sign>
+<time_end><![CDATA[20190720102429]]></time_end>
+<total_fee>2760</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000348201907207484553635]]></transaction_id>
+</xml>
+[ yoshop-info ] array (
+  'appid' => 'wx1607c34e8bf483ad',
+  'attach' => '{"order_type":10}',
+  'bank_type' => 'CMBC_CREDIT',
+  'cash_fee' => '2760',
+  'fee_type' => 'CNY',
+  'is_subscribe' => 'N',
+  'mch_id' => '1494678572',
+  'nonce_str' => '90f33c128c7eada75ebbfbebb443ed75',
+  'openid' => 'ofFaL5VhNeu0qKiOPid7kI1WL0Ko',
+  'out_trade_no' => '2019072053981019',
+  'result_code' => 'SUCCESS',
+  'return_code' => 'SUCCESS',
+  'sign' => '05ACCD4822895ED70D10479862A31E69',
+  'time_end' => '20190720102429',
+  'total_fee' => '2760',
+  'trade_type' => 'JSAPI',
+  'transaction_id' => '4200000348201907207484553635',
+)
+[ yoshop-info ] array (
+  'describe' => '发送模板消息',
+  'url' => 'https://api.weixin.qq.com/cgi-bin/message/wxopen/template/send?access_token=23_JHr_PGw8SjX6roNBqvTKwmra5D-vemlVWb69NtuU8PBnm4laUMnImC6CIclc5iZPFdMZ7SbXjroTAUsF7m62jRxuCcm8rIEG4E9lH5KbmffpkDH5qI3RHXmLoCQCCOjAIATTF',
+  'params' => 
+  array (
+    'touser' => 'ofFaL5VhNeu0qKiOPid7kI1WL0Ko',
+    'template_id' => 'R7M9VGUPM4c29NXvzs_fdmE5f69X2PWC3qYTp0CBLjc',
+    'page' => 'pages/order/detail?order_id=10276',
+    'form_id' => 'wx20102422040900363ce6c96c1880982000',
+    'data' => 
+    array (
+      'keyword1' => 
+      array (
+        'value' => '2019072053981019',
+        'color' => '#333333',
+      ),
+      'keyword2' => 
+      array (
+        'value' => '2019-07-20 10:24:30',
+        'color' => '#333333',
+      ),
+      'keyword3' => 
+      array (
+        'value' => '27.60',
+        'color' => '#333333',
+      ),
+      'keyword4' => 
+      array (
+        'value' => '新鲜鱼太平洋鳕鱼片中段冷冻海鲜水产480±20装/18.8 ',
+        'color' => '#333333',
+      ),
+    ),
+  ),
+  'result' => '{"errcode":40037,"errmsg":"invalid template_id hint: [aiBieA04703114]"}',
+)
+[ yoshop-info ] array (
+  'describe' => '返回微信支付状态',
+  'data' => 
+  array (
+    'return_code' => 'SUCCESS',
+    'return_msg' => 'OK',
+  ),
+)
+---------------------------------------------------------------
+[ 2019-07-20T10:27:08+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/store/order/transfer_list
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563503227 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563503228 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563503228 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563503228 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T10:29:28+08:00 ] 117.136.105.68 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=e52e744f88d8871c907d64d5c3c14a3a
+[ yoshop-info ] array (
+  'describe' => '获取小程序码',
+  'params' => 
+  array (
+    'scene' => 'uid:10137',
+    'width' => 280,
+    'page' => 'pages/store/check/all',
+  ),
+  'result' => 'image',
+)
+---------------------------------------------------------------
+[ 2019-07-20T10:37:10+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=%2Fstore%2Forder%2Ftransfer_list&page=1
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563503830 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563503830 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563503830 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563503830 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T10:47:20+08:00 ] 223.104.105.185 GET jqg.wanheezg.com/index.php?s=/api/user.order/shareDetail&order_id=10276&wxapp_id=10001&token=10022a4c8ce21f04408a8ead9f04a802
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563504440 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563504440 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563504440 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563504440 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T10:54:07+08:00 ] 171.8.135.26 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=3fa6177887fb6338f4d9d3bc23de7be6
+[ yoshop-info ] UserCoupon --setExpired --couponIds []
+---------------------------------------------------------------
+[ 2019-07-20T10:54:11+08:00 ] 171.8.135.26 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=3fa6177887fb6338f4d9d3bc23de7be6
+[ yoshop-info ] behavior sharing Order --close --close_days 1 --deadline_time 1563504851 --orderIds []
+[ yoshop-info ] behavior sharing Order --receive --receive_days 1 --deadline_time 1563504851 --orderIds []
+[ yoshop-info ] behavior sharing Order --setIncUserExpend --refund_days 1 --deadline_time 1563504851 --orderIds [] --userDatas []
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T11:12:09+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/store/order/all_list
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563505929 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563505929 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563505929 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563505929 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T11:22:51+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/store/order/all_list
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563506571 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563506571 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563506571 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563506571 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T11:35:20+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/store/order/transfer_list
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563507320 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563507320 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563507320 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563507320 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T11:38:07+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T11:38:54+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T11:48:26+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=%2Fstore%2Forder%2Ftransfer_list&dataType=transfer&delivery_type=&extract_shop_id=&start_time=2019-07-19&end_time=2019-07-20&search=
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563508106 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563508106 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563508106 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563508106 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T12:02:27+08:00 ] 171.9.138.202 GET jqg.wanheezg.com/index.php?s=/api/order/buyNow&delivery=0&shop_id=10039&coupon_id=0&goods_id=10212&goods_num=1&goods_sku_id=0&wxapp_id=10001&token=633a9ba1a0014d4e636bc1a2809f8d21
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563508947 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563508947 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563508947 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563508947 --orderIds [] --userDatas []
+[ yoshop-info ] UserCoupon --setExpired --couponIds []
+---------------------------------------------------------------
+[ 2019-07-20T12:04:12+08:00 ] 171.9.138.202 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=633a9ba1a0014d4e636bc1a2809f8d21
+[ yoshop-info ] array (
+  'describe' => '获取access_token',
+  'url' => 'https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx1607c34e8bf483ad&secret=6a0ad7d8579db45b2c5b1f6880bf1cb8',
+  'appId' => 'wx1607c34e8bf483ad',
+  'result' => '{"access_token":"23_8_6V_urVYu7v8wmBHtMMPuiKnT9KvMkQLafRY5F9lWJ8ZVFNqkomhsoGVF_8OKZlG6CKCmIeIk3Z4MaZ2aTitRJg0fimF2WseSocC5hWx1kt05rrcjoWQIWNxEFVUYYnMUa5ir_YNiyICBCQLWIbACAEPB","expires_in":7200}',
+)
+[ yoshop-info ] array (
+  'describe' => '获取小程序码',
+  'params' => 
+  array (
+    'scene' => 'uid:10174',
+    'width' => 280,
+    'page' => 'pages/store/check/all',
+  ),
+  'result' => 'image',
+)
+---------------------------------------------------------------
+[ 2019-07-20T12:06:04+08:00 ] 140.207.54.77 POST jqg.wanheezg.com/notice.php
+[ yoshop-info ] <xml><appid><![CDATA[wx1607c34e8bf483ad]]></appid>
+<attach><![CDATA[{"order_type":10}]]></attach>
+<bank_type><![CDATA[CITIC_CREDIT]]></bank_type>
+<cash_fee><![CDATA[2360]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1494678572]]></mch_id>
+<nonce_str><![CDATA[c7b7ea67ad3b40e5f0cf4822822e2149]]></nonce_str>
+<openid><![CDATA[ofFaL5WgyWxUaUUkTIdXrDozic3I]]></openid>
+<out_trade_no><![CDATA[2019072057100100]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[88BFDF3534FAC82159B5DD13DCFE8897]]></sign>
+<time_end><![CDATA[20190720120603]]></time_end>
+<total_fee>2360</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000348201907201872435515]]></transaction_id>
+</xml>
+[ yoshop-info ] array (
+  'appid' => 'wx1607c34e8bf483ad',
+  'attach' => '{"order_type":10}',
+  'bank_type' => 'CITIC_CREDIT',
+  'cash_fee' => '2360',
+  'fee_type' => 'CNY',
+  'is_subscribe' => 'N',
+  'mch_id' => '1494678572',
+  'nonce_str' => 'c7b7ea67ad3b40e5f0cf4822822e2149',
+  'openid' => 'ofFaL5WgyWxUaUUkTIdXrDozic3I',
+  'out_trade_no' => '2019072057100100',
+  'result_code' => 'SUCCESS',
+  'return_code' => 'SUCCESS',
+  'sign' => '88BFDF3534FAC82159B5DD13DCFE8897',
+  'time_end' => '20190720120603',
+  'total_fee' => '2360',
+  'trade_type' => 'JSAPI',
+  'transaction_id' => '4200000348201907201872435515',
+)
+[ yoshop-info ] array (
+  'describe' => '发送模板消息',
+  'url' => 'https://api.weixin.qq.com/cgi-bin/message/wxopen/template/send?access_token=23_8_6V_urVYu7v8wmBHtMMPuiKnT9KvMkQLafRY5F9lWJ8ZVFNqkomhsoGVF_8OKZlG6CKCmIeIk3Z4MaZ2aTitRJg0fimF2WseSocC5hWx1kt05rrcjoWQIWNxEFVUYYnMUa5ir_YNiyICBCQLWIbACAEPB',
+  'params' => 
+  array (
+    'touser' => 'ofFaL5WgyWxUaUUkTIdXrDozic3I',
+    'template_id' => 'R7M9VGUPM4c29NXvzs_fdmE5f69X2PWC3qYTp0CBLjc',
+    'page' => 'pages/order/detail?order_id=10278',
+    'form_id' => 'wx20120546121977f291cd16471460936800',
+    'data' => 
+    array (
+      'keyword1' => 
+      array (
+        'value' => '2019072057100100',
+        'color' => '#333333',
+      ),
+      'keyword2' => 
+      array (
+        'value' => '2019-07-20 12:06:04',
+        'color' => '#333333',
+      ),
+      'keyword3' => 
+      array (
+        'value' => '23.60',
+        'color' => '#333333',
+      ),
+      'keyword4' => 
+      array (
+        'value' => '灵宝苹果1500g±100g/16.8 ',
+        'color' => '#333333',
+      ),
+    ),
+  ),
+  'result' => '{"errcode":40037,"errmsg":"invalid template_id hint: [OpVuJA05644108]"}',
+)
+[ yoshop-info ] array (
+  'describe' => '返回微信支付状态',
+  'data' => 
+  array (
+    'return_code' => 'SUCCESS',
+    'return_msg' => 'OK',
+  ),
+)
+---------------------------------------------------------------
+[ 2019-07-20T12:21:09+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563510069 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563510069 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563510069 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563510069 --orderIds [10266] --userDatas {"10135":12.6}
+[ yoshop-info ] behavior sharing Order --close --close_days 1 --deadline_time 1563510069 --orderIds []
+[ yoshop-info ] behavior sharing Order --receive --receive_days 1 --deadline_time 1563510069 --orderIds []
+[ yoshop-info ] behavior sharing Order --setIncUserExpend --refund_days 1 --deadline_time 1563510069 --orderIds [] --userDatas []
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T13:05:31+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.order/lists&page=1&dataType=all&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563512731 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563512731 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563512731 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563512731 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T13:05:35+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T13:05:49+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T13:05:52+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] UserCoupon --setExpired --couponIds []
+---------------------------------------------------------------
+[ 2019-07-20T13:21:27+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563513687 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563513687 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563513687 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563513687 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T13:28:03+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Order --close --close_days 1 --deadline_time 1563514083 --orderIds []
+[ yoshop-info ] behavior sharing Order --receive --receive_days 1 --deadline_time 1563514083 --orderIds []
+[ yoshop-info ] behavior sharing Order --setIncUserExpend --refund_days 1 --deadline_time 1563514083 --orderIds [] --userDatas []
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T13:31:35+08:00 ] 117.136.105.149 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=8b80554742a68a139a2a9d9ce3f20b01
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563514295 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563514295 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563514295 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563514295 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T13:34:16+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T13:42:26+08:00 ] 61.158.152.141 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=3ce95864dc5893231540936d551dba3c
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563514946 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563514946 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563514946 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563514946 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T13:53:34+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563515614 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563515614 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563515614 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563515614 --orderIds [] --userDatas []
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T14:08:46+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/store/order/all_list
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563516526 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563516526 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563516526 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563516526 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T14:33:00+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/store/order/all_list
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563517980 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563517980 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563517980 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563517980 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T14:35:41+08:00 ] 106.34.147.143 GET jqg.wanheezg.com/index.php?s=/api/cart/lists&wxapp_id=10001&token=942f41ac8c4ca96fc8739c587795bd08
+[ yoshop-info ] UserCoupon --setExpired --couponIds []
+---------------------------------------------------------------
+[ 2019-07-20T14:36:02+08:00 ] 106.34.147.143 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=942f41ac8c4ca96fc8739c587795bd08
+[ yoshop-info ] behavior sharing Order --close --close_days 1 --deadline_time 1563518162 --orderIds []
+[ yoshop-info ] behavior sharing Order --receive --receive_days 1 --deadline_time 1563518162 --orderIds []
+[ yoshop-info ] behavior sharing Order --setIncUserExpend --refund_days 1 --deadline_time 1563518162 --orderIds [] --userDatas []
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T14:37:54+08:00 ] 106.34.147.143 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=942f41ac8c4ca96fc8739c587795bd08
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T14:56:47+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/cart/lists&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563519407 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563519407 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563519407 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563519407 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T14:56:58+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T14:57:31+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T15:06:43+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T15:07:07+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/store/order/all_list
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563520027 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563520027 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563520027 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563520027 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T15:07:14+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T15:07:36+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T15:10:24+08:00 ] 140.207.54.76 POST jqg.wanheezg.com/notice.php
+[ yoshop-info ] <xml><appid><![CDATA[wx1607c34e8bf483ad]]></appid>
+<attach><![CDATA[{"order_type":10}]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[3860]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1494678572]]></mch_id>
+<nonce_str><![CDATA[f830af366a9cf637cea47e43d8d5451f]]></nonce_str>
+<openid><![CDATA[ofFaL5S1KOZu4qCaF6bo0Vs0UG1M]]></openid>
+<out_trade_no><![CDATA[2019072057975651]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[1521C0A3CD6924AFEC025D68175B0C63]]></sign>
+<time_end><![CDATA[20190720151022]]></time_end>
+<total_fee>3860</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000350201907200869249999]]></transaction_id>
+</xml>
+[ yoshop-info ] array (
+  'appid' => 'wx1607c34e8bf483ad',
+  'attach' => '{"order_type":10}',
+  'bank_type' => 'CFT',
+  'cash_fee' => '3860',
+  'fee_type' => 'CNY',
+  'is_subscribe' => 'N',
+  'mch_id' => '1494678572',
+  'nonce_str' => 'f830af366a9cf637cea47e43d8d5451f',
+  'openid' => 'ofFaL5S1KOZu4qCaF6bo0Vs0UG1M',
+  'out_trade_no' => '2019072057975651',
+  'result_code' => 'SUCCESS',
+  'return_code' => 'SUCCESS',
+  'sign' => '1521C0A3CD6924AFEC025D68175B0C63',
+  'time_end' => '20190720151022',
+  'total_fee' => '3860',
+  'trade_type' => 'JSAPI',
+  'transaction_id' => '4200000350201907200869249999',
+)
+[ yoshop-info ] array (
+  'describe' => '获取access_token',
+  'url' => 'https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx1607c34e8bf483ad&secret=6a0ad7d8579db45b2c5b1f6880bf1cb8',
+  'appId' => 'wx1607c34e8bf483ad',
+  'result' => '{"access_token":"23_uwTp2cbGuO-zOe8XMqjFJBxQ-a4rmcLsBwdk8HUYufA69ycw8wKvGJu96jXhKTDFeZvAJ_JNZ26fP8vNmxjfXuZQ0nJjgFnYRn7bfKD3vOnn6YYgN0qEzqmV3B-3T88i7VkQD3XV1rY2TAMBKCPhAAANFS","expires_in":7200}',
+)
+[ yoshop-info ] array (
+  'describe' => '发送模板消息',
+  'url' => 'https://api.weixin.qq.com/cgi-bin/message/wxopen/template/send?access_token=23_uwTp2cbGuO-zOe8XMqjFJBxQ-a4rmcLsBwdk8HUYufA69ycw8wKvGJu96jXhKTDFeZvAJ_JNZ26fP8vNmxjfXuZQ0nJjgFnYRn7bfKD3vOnn6YYgN0qEzqmV3B-3T88i7VkQD3XV1rY2TAMBKCPhAAANFS',
+  'params' => 
+  array (
+    'touser' => 'ofFaL5S1KOZu4qCaF6bo0Vs0UG1M',
+    'template_id' => 'R7M9VGUPM4c29NXvzs_fdmE5f69X2PWC3qYTp0CBLjc',
+    'page' => 'pages/order/detail?order_id=10279',
+    'form_id' => 'wx201510179386476da64ccd3d1341925900',
+    'data' => 
+    array (
+      'keyword1' => 
+      array (
+        'value' => '2019072057975651',
+        'color' => '#333333',
+      ),
+      'keyword2' => 
+      array (
+        'value' => '2019-07-20 15:10:23',
+        'color' => '#333333',
+      ),
+      'keyword3' => 
+      array (
+        'value' => '38.60',
+        'color' => '#333333',
+      ),
+      'keyword4' => 
+      array (
+        'value' => '特级虾尾冷冻小龙虾尾冰冻龙虾尾鲜活速冻500g/ ',
+        'color' => '#333333',
+      ),
+    ),
+  ),
+  'result' => '{"errcode":40037,"errmsg":"invalid template_id hint: [bYCyOA06244108]"}',
+)
+[ yoshop-info ] array (
+  'describe' => '返回微信支付状态',
+  'data' => 
+  array (
+    'return_code' => 'SUCCESS',
+    'return_msg' => 'OK',
+  ),
+)
+---------------------------------------------------------------
+[ 2019-07-20T15:21:26+08:00 ] 59.152.38.47 GET jqg.wanheezg.com/index.php?s=/api/order/buyNow&delivery=0&shop_id=10039&coupon_id=0&goods_id=10189&goods_num=1&goods_sku_id=0&wxapp_id=10001&token=05df9e5d4a12a1703e988054d1828796
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563520886 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563520886 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563520886 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563520886 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T15:23:20+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T15:23:40+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T15:27:10+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T15:27:32+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T15:27:54+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T15:28:16+08:00 ] 103.253.60.38 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=05df9e5d4a12a1703e988054d1828796
+[ yoshop-info ] array (
+  'describe' => '获取小程序码',
+  'params' => 
+  array (
+    'scene' => 'uid:10176',
+    'width' => 280,
+    'page' => 'pages/store/check/all',
+  ),
+  'result' => 'image',
+)
+---------------------------------------------------------------
+[ 2019-07-20T15:28:41+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T15:28:56+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T15:30:50+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T15:31:08+08:00 ] 171.8.134.111 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=76b4ef2d352d803404d3a16f502a9544
+[ yoshop-info ] array (
+  'describe' => '获取小程序码',
+  'params' => 
+  array (
+    'scene' => 'uid:10178',
+    'width' => 280,
+    'page' => 'pages/store/check/all',
+  ),
+  'result' => 'image',
+)
+---------------------------------------------------------------
+[ 2019-07-20T15:31:27+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563521487 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563521487 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563521487 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563521487 --orderIds [] --userDatas []
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T15:35:46+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/cart/lists&wxapp_id=10001&token=2dea30cc412ca486d9710dc3e8309e0e
+[ yoshop-info ] UserCoupon --setExpired --couponIds []
+---------------------------------------------------------------
+[ 2019-07-20T15:37:31+08:00 ] 140.207.54.77 POST jqg.wanheezg.com/notice.php
+[ yoshop-info ] <xml><appid><![CDATA[wx1607c34e8bf483ad]]></appid>
+<attach><![CDATA[{"order_type":10}]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1158]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1494678572]]></mch_id>
+<nonce_str><![CDATA[fef4ed89516b142a61c52ddb3fa71373]]></nonce_str>
+<openid><![CDATA[ofFaL5ThPTu3mfIxjnuWj0R612DM]]></openid>
+<out_trade_no><![CDATA[2019072048509710]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[FB6BC2F47E5EBA599375262429469CD2]]></sign>
+<time_end><![CDATA[20190720153730]]></time_end>
+<total_fee>1158</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000355201907204620279746]]></transaction_id>
+</xml>
+[ yoshop-info ] array (
+  'appid' => 'wx1607c34e8bf483ad',
+  'attach' => '{"order_type":10}',
+  'bank_type' => 'CFT',
+  'cash_fee' => '1158',
+  'fee_type' => 'CNY',
+  'is_subscribe' => 'N',
+  'mch_id' => '1494678572',
+  'nonce_str' => 'fef4ed89516b142a61c52ddb3fa71373',
+  'openid' => 'ofFaL5ThPTu3mfIxjnuWj0R612DM',
+  'out_trade_no' => '2019072048509710',
+  'result_code' => 'SUCCESS',
+  'return_code' => 'SUCCESS',
+  'sign' => 'FB6BC2F47E5EBA599375262429469CD2',
+  'time_end' => '20190720153730',
+  'total_fee' => '1158',
+  'trade_type' => 'JSAPI',
+  'transaction_id' => '4200000355201907204620279746',
+)
+[ yoshop-info ] array (
+  'describe' => '发送模板消息',
+  'url' => 'https://api.weixin.qq.com/cgi-bin/message/wxopen/template/send?access_token=23_uwTp2cbGuO-zOe8XMqjFJBxQ-a4rmcLsBwdk8HUYufA69ycw8wKvGJu96jXhKTDFeZvAJ_JNZ26fP8vNmxjfXuZQ0nJjgFnYRn7bfKD3vOnn6YYgN0qEzqmV3B-3T88i7VkQD3XV1rY2TAMBKCPhAAANFS',
+  'params' => 
+  array (
+    'touser' => 'ofFaL5ThPTu3mfIxjnuWj0R612DM',
+    'template_id' => 'R7M9VGUPM4c29NXvzs_fdmE5f69X2PWC3qYTp0CBLjc',
+    'page' => 'pages/order/detail?order_id=10281',
+    'form_id' => 'wx2015372039536492c23771e91300032500',
+    'data' => 
+    array (
+      'keyword1' => 
+      array (
+        'value' => '2019072048509710',
+        'color' => '#333333',
+      ),
+      'keyword2' => 
+      array (
+        'value' => '2019-07-20 15:37:31',
+        'color' => '#333333',
+      ),
+      'keyword3' => 
+      array (
+        'value' => '11.58',
+        'color' => '#333333',
+      ),
+      'keyword4' => 
+      array (
+        'value' => '新鲜小白菜娃娃菜750g±50g3颗一包/3 心心相印湿巾茶语系列单片独立包装便携迷你湿巾10片/3.6 大葱新鲜原生态天然无添加无公害绿色750g±50g/3 现摘应季蔬菜 新鲜农家沙瓤大番茄500g±30g装/1.98元 ',
+        'color' => '#333333',
+      ),
+    ),
+  ),
+  'result' => '{"errcode":40037,"errmsg":"invalid template_id hint: [oqCtIA0251shc2]"}',
+)
+[ yoshop-info ] array (
+  'describe' => '返回微信支付状态',
+  'data' => 
+  array (
+    'return_code' => 'SUCCESS',
+    'return_msg' => 'OK',
+  ),
+)
+---------------------------------------------------------------
+[ 2019-07-20T15:37:41+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=2dea30cc412ca486d9710dc3e8309e0e
+[ yoshop-info ] array (
+  'describe' => '获取小程序码',
+  'params' => 
+  array (
+    'scene' => 'uid:10177',
+    'width' => 280,
+    'page' => 'pages/store/check/all',
+  ),
+  'result' => 'image',
+)
+---------------------------------------------------------------
+[ 2019-07-20T15:41:30+08:00 ] 103.253.60.38 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=05df9e5d4a12a1703e988054d1828796
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563522090 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563522090 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563522090 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563522090 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T15:41:51+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Order --close --close_days 1 --deadline_time 1563522111 --orderIds []
+[ yoshop-info ] behavior sharing Order --receive --receive_days 1 --deadline_time 1563522111 --orderIds []
+[ yoshop-info ] behavior sharing Order --setIncUserExpend --refund_days 1 --deadline_time 1563522111 --orderIds [] --userDatas []
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T15:42:12+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T15:49:18+08:00 ] 140.207.54.78 POST jqg.wanheezg.com/notice.php
+[ yoshop-info ] <xml><appid><![CDATA[wx1607c34e8bf483ad]]></appid>
+<attach><![CDATA[{"order_type":10}]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[2962]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1494678572]]></mch_id>
+<nonce_str><![CDATA[de14dbc1f0e4017da8917e123e637c7a]]></nonce_str>
+<openid><![CDATA[ofFaL5fqAAn_WzgzMS_sZJWeQZ6Q]]></openid>
+<out_trade_no><![CDATA[2019072050575348]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[1047F449F2749489736DCFB33D2EC5E8]]></sign>
+<time_end><![CDATA[20190720154916]]></time_end>
+<total_fee>2962</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000349201907204764835898]]></transaction_id>
+</xml>
+[ yoshop-info ] array (
+  'appid' => 'wx1607c34e8bf483ad',
+  'attach' => '{"order_type":10}',
+  'bank_type' => 'CFT',
+  'cash_fee' => '2962',
+  'fee_type' => 'CNY',
+  'is_subscribe' => 'N',
+  'mch_id' => '1494678572',
+  'nonce_str' => 'de14dbc1f0e4017da8917e123e637c7a',
+  'openid' => 'ofFaL5fqAAn_WzgzMS_sZJWeQZ6Q',
+  'out_trade_no' => '2019072050575348',
+  'result_code' => 'SUCCESS',
+  'return_code' => 'SUCCESS',
+  'sign' => '1047F449F2749489736DCFB33D2EC5E8',
+  'time_end' => '20190720154916',
+  'total_fee' => '2962',
+  'trade_type' => 'JSAPI',
+  'transaction_id' => '4200000349201907204764835898',
+)
+[ yoshop-info ] array (
+  'describe' => '发送模板消息',
+  'url' => 'https://api.weixin.qq.com/cgi-bin/message/wxopen/template/send?access_token=23_uwTp2cbGuO-zOe8XMqjFJBxQ-a4rmcLsBwdk8HUYufA69ycw8wKvGJu96jXhKTDFeZvAJ_JNZ26fP8vNmxjfXuZQ0nJjgFnYRn7bfKD3vOnn6YYgN0qEzqmV3B-3T88i7VkQD3XV1rY2TAMBKCPhAAANFS',
+  'params' => 
+  array (
+    'touser' => 'ofFaL5fqAAn_WzgzMS_sZJWeQZ6Q',
+    'template_id' => 'R7M9VGUPM4c29NXvzs_fdmE5f69X2PWC3qYTp0CBLjc',
+    'page' => 'pages/order/detail?order_id=10282',
+    'form_id' => 'wx201549068131595d582556aa1997530000',
+    'data' => 
+    array (
+      'keyword1' => 
+      array (
+        'value' => '2019072050575348',
+        'color' => '#333333',
+      ),
+      'keyword2' => 
+      array (
+        'value' => '2019-07-20 15:49:18',
+        'color' => '#333333',
+      ),
+      'keyword3' => 
+      array (
+        'value' => '29.62',
+        'color' => '#333333',
+      ),
+      'keyword4' => 
+      array (
+        'value' => '千丝万缕虾 黄金面线虾油炸小吃冷冻半成品250一包/12.8 水蜜桃时令新鲜水果500g/3.2元 啃啃友味蒸鲜扇贝香辣味76g*袋/4.56元 新鲜大蒜 干蒜 蒜头450g-500g/4.5 ',
+        'color' => '#333333',
+      ),
+    ),
+  ),
+  'result' => '{"errcode":40037,"errmsg":"invalid template_id hint: [RW5BVA09584100]"}',
+)
+[ yoshop-info ] array (
+  'describe' => '返回微信支付状态',
+  'data' => 
+  array (
+    'return_code' => 'SUCCESS',
+    'return_msg' => 'OK',
+  ),
+)
+---------------------------------------------------------------
+[ 2019-07-20T15:51:57+08:00 ] 171.8.134.111 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=76b4ef2d352d803404d3a16f502a9544
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563522717 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563522717 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563522717 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563522717 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T15:55:43+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T15:57:15+08:00 ] 140.207.54.77 POST jqg.wanheezg.com/notice.php
+[ yoshop-info ] <xml><appid><![CDATA[wx1607c34e8bf483ad]]></appid>
+<attach><![CDATA[{"order_type":10}]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[3518]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1494678572]]></mch_id>
+<nonce_str><![CDATA[95a8e4d39e317ada101f6f0bc34ed505]]></nonce_str>
+<openid><![CDATA[ofFaL5TzMlefEUYMWZ0UJHbL0p48]]></openid>
+<out_trade_no><![CDATA[2019072010250499]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[B1F172DA43F10B9D502222078A7D2F01]]></sign>
+<time_end><![CDATA[20190720155714]]></time_end>
+<total_fee>3518</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000341201907209218485525]]></transaction_id>
+</xml>
+[ yoshop-info ] array (
+  'appid' => 'wx1607c34e8bf483ad',
+  'attach' => '{"order_type":10}',
+  'bank_type' => 'CFT',
+  'cash_fee' => '3518',
+  'fee_type' => 'CNY',
+  'is_subscribe' => 'N',
+  'mch_id' => '1494678572',
+  'nonce_str' => '95a8e4d39e317ada101f6f0bc34ed505',
+  'openid' => 'ofFaL5TzMlefEUYMWZ0UJHbL0p48',
+  'out_trade_no' => '2019072010250499',
+  'result_code' => 'SUCCESS',
+  'return_code' => 'SUCCESS',
+  'sign' => 'B1F172DA43F10B9D502222078A7D2F01',
+  'time_end' => '20190720155714',
+  'total_fee' => '3518',
+  'trade_type' => 'JSAPI',
+  'transaction_id' => '4200000341201907209218485525',
+)
+[ yoshop-info ] array (
+  'describe' => '发送模板消息',
+  'url' => 'https://api.weixin.qq.com/cgi-bin/message/wxopen/template/send?access_token=23_uwTp2cbGuO-zOe8XMqjFJBxQ-a4rmcLsBwdk8HUYufA69ycw8wKvGJu96jXhKTDFeZvAJ_JNZ26fP8vNmxjfXuZQ0nJjgFnYRn7bfKD3vOnn6YYgN0qEzqmV3B-3T88i7VkQD3XV1rY2TAMBKCPhAAANFS',
+  'params' => 
+  array (
+    'touser' => 'ofFaL5TzMlefEUYMWZ0UJHbL0p48',
+    'template_id' => 'R7M9VGUPM4c29NXvzs_fdmE5f69X2PWC3qYTp0CBLjc',
+    'page' => 'pages/order/detail?order_id=10283',
+    'form_id' => 'wx201557033707653729b0f0201841344000',
+    'data' => 
+    array (
+      'keyword1' => 
+      array (
+        'value' => '2019072010250499',
+        'color' => '#333333',
+      ),
+      'keyword2' => 
+      array (
+        'value' => '2019-07-20 15:57:15',
+        'color' => '#333333',
+      ),
+      'keyword3' => 
+      array (
+        'value' => '35.18',
+        'color' => '#333333',
+      ),
+      'keyword4' => 
+      array (
+        'value' => '甜宝甜瓜750g±50g/2.3 农家自种新鲜非转基因水果玉米一个/1.98 巨峰葡萄500g/6 野生葛根粉每罐250g/18元 ',
+        'color' => '#333333',
+      ),
+    ),
+  ),
+  'result' => '{"errcode":40037,"errmsg":"invalid template_id hint: [p9MTra04353946]"}',
+)
+[ yoshop-info ] array (
+  'describe' => '返回微信支付状态',
+  'data' => 
+  array (
+    'return_code' => 'SUCCESS',
+    'return_msg' => 'OK',
+  ),
+)
+---------------------------------------------------------------
+[ 2019-07-20T16:02:17+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563523337 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563523337 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563523337 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563523337 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T16:02:22+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T16:03:17+08:00 ] 103.253.60.38 GET jqg.wanheezg.com/index.php?s=/api/page/qrcode&shop_id=10039&wxapp_id=10001&token=05df9e5d4a12a1703e988054d1828796
+[ yoshop-info ] array (
+  'describe' => '获取小程序码',
+  'params' => 
+  array (
+    'scene' => 'shopid:10039,uid:10176',
+    'width' => 280,
+  ),
+  'result' => 'image',
+)
+---------------------------------------------------------------
+[ 2019-07-20T16:03:21+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T16:06:10+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T16:06:34+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T16:06:49+08:00 ] 140.207.54.75 POST jqg.wanheezg.com/notice.php
+[ yoshop-info ] <xml><appid><![CDATA[wx1607c34e8bf483ad]]></appid>
+<attach><![CDATA[{"order_type":10}]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[3582]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1494678572]]></mch_id>
+<nonce_str><![CDATA[30c9cc199e5d588a220e2be2f776c65a]]></nonce_str>
+<openid><![CDATA[ofFaL5YJIiCJcoA9GxHWHB4IYF8g]]></openid>
+<out_trade_no><![CDATA[2019072050501005]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[999B3CC86B93E9B15DA9C4D008700A84]]></sign>
+<time_end><![CDATA[20190720160648]]></time_end>
+<total_fee>3582</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000342201907209111250172]]></transaction_id>
+</xml>
+[ yoshop-info ] array (
+  'appid' => 'wx1607c34e8bf483ad',
+  'attach' => '{"order_type":10}',
+  'bank_type' => 'CFT',
+  'cash_fee' => '3582',
+  'fee_type' => 'CNY',
+  'is_subscribe' => 'N',
+  'mch_id' => '1494678572',
+  'nonce_str' => '30c9cc199e5d588a220e2be2f776c65a',
+  'openid' => 'ofFaL5YJIiCJcoA9GxHWHB4IYF8g',
+  'out_trade_no' => '2019072050501005',
+  'result_code' => 'SUCCESS',
+  'return_code' => 'SUCCESS',
+  'sign' => '999B3CC86B93E9B15DA9C4D008700A84',
+  'time_end' => '20190720160648',
+  'total_fee' => '3582',
+  'trade_type' => 'JSAPI',
+  'transaction_id' => '4200000342201907209111250172',
+)
+[ yoshop-info ] array (
+  'describe' => '发送模板消息',
+  'url' => 'https://api.weixin.qq.com/cgi-bin/message/wxopen/template/send?access_token=23_uwTp2cbGuO-zOe8XMqjFJBxQ-a4rmcLsBwdk8HUYufA69ycw8wKvGJu96jXhKTDFeZvAJ_JNZ26fP8vNmxjfXuZQ0nJjgFnYRn7bfKD3vOnn6YYgN0qEzqmV3B-3T88i7VkQD3XV1rY2TAMBKCPhAAANFS',
+  'params' => 
+  array (
+    'touser' => 'ofFaL5YJIiCJcoA9GxHWHB4IYF8g',
+    'template_id' => 'R7M9VGUPM4c29NXvzs_fdmE5f69X2PWC3qYTp0CBLjc',
+    'page' => 'pages/order/detail?order_id=10285',
+    'form_id' => 'wx20160642383780f54e8967c81670286900',
+    'data' => 
+    array (
+      'keyword1' => 
+      array (
+        'value' => '2019072050501005',
+        'color' => '#333333',
+      ),
+      'keyword2' => 
+      array (
+        'value' => '2019-07-20 16:06:49',
+        'color' => '#333333',
+      ),
+      'keyword3' => 
+      array (
+        'value' => '35.82',
+        'color' => '#333333',
+      ),
+      'keyword4' => 
+      array (
+        'value' => '散装新货桂圆干250g/6元 新鲜蔬菜农家自种嫩小冬瓜1200g±100g/1.98 新鲜胡萝卜新鲜果农家自种胡萝卜500g±20g/1.58 现摘新鲜丝瓜500g/1.68元 新鲜青茄子500g装/0.78元 特级虾尾冷冻小龙虾尾冰冻龙虾尾鲜活速冻500g/ 乒乓球葡萄大颗新鲜水果500g/6元 巨峰葡萄500g/6 ',
+        'color' => '#333333',
+      ),
+    ),
+  ),
+  'result' => '{"errcode":40037,"errmsg":"invalid template_id hint: [WxJM2a00098648]"}',
+)
+[ yoshop-info ] array (
+  'describe' => '返回微信支付状态',
+  'data' => 
+  array (
+    'return_code' => 'SUCCESS',
+    'return_msg' => 'OK',
+  ),
+)
+---------------------------------------------------------------
+[ 2019-07-20T16:07:31+08:00 ] 140.207.54.76 POST jqg.wanheezg.com/notice.php
+[ yoshop-info ] <xml><appid><![CDATA[wx1607c34e8bf483ad]]></appid>
+<attach><![CDATA[{"order_type":10}]]></attach>
+<bank_type><![CDATA[GDB_CREDIT]]></bank_type>
+<cash_fee><![CDATA[2256]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1494678572]]></mch_id>
+<nonce_str><![CDATA[174cc4e42be0a07e1c2963dbe8be53a9]]></nonce_str>
+<openid><![CDATA[ofFaL5TzMlefEUYMWZ0UJHbL0p48]]></openid>
+<out_trade_no><![CDATA[2019072049515456]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[B2AEBFC66A969BEADF713EEB683085E7]]></sign>
+<time_end><![CDATA[20190720160730]]></time_end>
+<total_fee>2256</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000356201907206366815976]]></transaction_id>
+</xml>
+[ yoshop-info ] array (
+  'appid' => 'wx1607c34e8bf483ad',
+  'attach' => '{"order_type":10}',
+  'bank_type' => 'GDB_CREDIT',
+  'cash_fee' => '2256',
+  'fee_type' => 'CNY',
+  'is_subscribe' => 'N',
+  'mch_id' => '1494678572',
+  'nonce_str' => '174cc4e42be0a07e1c2963dbe8be53a9',
+  'openid' => 'ofFaL5TzMlefEUYMWZ0UJHbL0p48',
+  'out_trade_no' => '2019072049515456',
+  'result_code' => 'SUCCESS',
+  'return_code' => 'SUCCESS',
+  'sign' => 'B2AEBFC66A969BEADF713EEB683085E7',
+  'time_end' => '20190720160730',
+  'total_fee' => '2256',
+  'trade_type' => 'JSAPI',
+  'transaction_id' => '4200000356201907206366815976',
+)
+[ yoshop-info ] array (
+  'describe' => '发送模板消息',
+  'url' => 'https://api.weixin.qq.com/cgi-bin/message/wxopen/template/send?access_token=23_uwTp2cbGuO-zOe8XMqjFJBxQ-a4rmcLsBwdk8HUYufA69ycw8wKvGJu96jXhKTDFeZvAJ_JNZ26fP8vNmxjfXuZQ0nJjgFnYRn7bfKD3vOnn6YYgN0qEzqmV3B-3T88i7VkQD3XV1rY2TAMBKCPhAAANFS',
+  'params' => 
+  array (
+    'touser' => 'ofFaL5TzMlefEUYMWZ0UJHbL0p48',
+    'template_id' => 'R7M9VGUPM4c29NXvzs_fdmE5f69X2PWC3qYTp0CBLjc',
+    'page' => 'pages/order/detail?order_id=10286',
+    'form_id' => 'wx201607134210892f839b337b1851272900',
+    'data' => 
+    array (
+      'keyword1' => 
+      array (
+        'value' => '2019072049515456',
+        'color' => '#333333',
+      ),
+      'keyword2' => 
+      array (
+        'value' => '2019-07-20 16:07:31',
+        'color' => '#333333',
+      ),
+      'keyword3' => 
+      array (
+        'value' => '22.56',
+        'color' => '#333333',
+      ),
+      'keyword4' => 
+      array (
+        'value' => '野生葛根粉每罐250g/18元 巨峰葡萄500g/6 甜宝甜瓜750g±50g/2.3 农家自种新鲜非转基因水果玉米一个/1.98 ',
+        'color' => '#333333',
+      ),
+    ),
+  ),
+  'result' => '{"errcode":40037,"errmsg":"invalid template_id hint: [9XCMmA00514119]"}',
+)
+[ yoshop-info ] array (
+  'describe' => '返回微信支付状态',
+  'data' => 
+  array (
+    'return_code' => 'SUCCESS',
+    'return_msg' => 'OK',
+  ),
+)
+---------------------------------------------------------------
+[ 2019-07-20T16:12:25+08:00 ] 106.34.147.143 GET jqg.wanheezg.com/index.php?s=/api/user.order/shareDetail&order_id=10285&wxapp_id=10001&token=942f41ac8c4ca96fc8739c587795bd08
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563523945 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563523945 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563523945 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563523945 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T16:19:48+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=46063be036d5b60ba9930bb1fe68155c
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T16:20:03+08:00 ] 1.198.209.112 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=69543dd3f29a1ad34d9910df287d809d
+[ yoshop-info ] array (
+  'describe' => '获取小程序码',
+  'params' => 
+  array (
+    'scene' => 'uid:10179',
+    'width' => 280,
+    'page' => 'pages/store/check/all',
+  ),
+  'result' => 'image',
+)
+---------------------------------------------------------------
+[ 2019-07-20T16:22:33+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=%2Fstore%2Forder%2Ftransfer_list&dataType=transfer&delivery_type=&extract_shop_id=&start_time=2019-07-19&end_time=2019-07-19&search=
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563524553 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563524553 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563524553 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563524553 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T16:24:34+08:00 ] 125.46.210.156 POST jqg.wanheezg.com/index.php?s=/store/order/transfer/order_id/10286
+[ yoshop-info ] array (
+  'describe' => '发送模板消息',
+  'url' => 'https://api.weixin.qq.com/cgi-bin/message/wxopen/template/send?access_token=23_uwTp2cbGuO-zOe8XMqjFJBxQ-a4rmcLsBwdk8HUYufA69ycw8wKvGJu96jXhKTDFeZvAJ_JNZ26fP8vNmxjfXuZQ0nJjgFnYRn7bfKD3vOnn6YYgN0qEzqmV3B-3T88i7VkQD3XV1rY2TAMBKCPhAAANFS',
+  'params' => 
+  array (
+    'touser' => 'ofFaL5TzMlefEUYMWZ0UJHbL0p48',
+    'template_id' => '4sgfKUbsmjWFs-Q3TsFOXR05Zct7aaDetA2YqZHpwRc',
+    'page' => 'pages/order/detail?order_id=10286',
+    'form_id' => 'wx201607134210892f839b337b1851272900',
+    'data' => 
+    array (
+      'keyword1' => 
+      array (
+        'value' => '2019072049515456',
+        'color' => '#333333',
+      ),
+      'keyword2' => 
+      array (
+        'value' => '中岳七里香堤9号楼二单元',
+        'color' => '#333333',
+      ),
+      'keyword3' => 
+      array (
+        'value' => '河南省郑州市管城回族区管城中岳·七里香堤(紫东路北)',
+        'color' => '#333333',
+      ),
+      'keyword4' => 
+      array (
+        'value' => '孔祥齐',
+        'color' => '#333333',
+      ),
+      'keyword5' => 
+      array (
+        'value' => '野生葛根粉每罐250g/18元 巨峰葡萄500g/6 甜宝甜瓜750g±50g/2.3 农家自种新鲜非转基因水果玉米一个/1.98 ',
+        'color' => '#333333',
+      ),
+    ),
+  ),
+  'result' => '{"errcode":40037,"errmsg":"invalid template_id hint: [m1y7qA00743116]"}',
+)
+---------------------------------------------------------------
+[ 2019-07-20T16:24:50+08:00 ] 125.46.210.156 POST jqg.wanheezg.com/index.php?s=/store/order/transfer/order_id/10285
+[ yoshop-info ] array (
+  'describe' => '发送模板消息',
+  'url' => 'https://api.weixin.qq.com/cgi-bin/message/wxopen/template/send?access_token=23_uwTp2cbGuO-zOe8XMqjFJBxQ-a4rmcLsBwdk8HUYufA69ycw8wKvGJu96jXhKTDFeZvAJ_JNZ26fP8vNmxjfXuZQ0nJjgFnYRn7bfKD3vOnn6YYgN0qEzqmV3B-3T88i7VkQD3XV1rY2TAMBKCPhAAANFS',
+  'params' => 
+  array (
+    'touser' => 'ofFaL5YJIiCJcoA9GxHWHB4IYF8g',
+    'template_id' => '4sgfKUbsmjWFs-Q3TsFOXR05Zct7aaDetA2YqZHpwRc',
+    'page' => 'pages/order/detail?order_id=10285',
+    'form_id' => 'wx20160642383780f54e8967c81670286900',
+    'data' => 
+    array (
+      'keyword1' => 
+      array (
+        'value' => '2019072050501005',
+        'color' => '#333333',
+      ),
+      'keyword2' => 
+      array (
+        'value' => '中岳七里香堤9号楼二单元',
+        'color' => '#333333',
+      ),
+      'keyword3' => 
+      array (
+        'value' => '河南省郑州市管城回族区管城中岳·七里香堤(紫东路北)',
+        'color' => '#333333',
+      ),
+      'keyword4' => 
+      array (
+        'value' => '孔祥齐',
+        'color' => '#333333',
+      ),
+      'keyword5' => 
+      array (
+        'value' => '散装新货桂圆干250g/6元 新鲜蔬菜农家自种嫩小冬瓜1200g±100g/1.98 新鲜胡萝卜新鲜果农家自种胡萝卜500g±20g/1.58 现摘新鲜丝瓜500g/1.68元 新鲜青茄子500g装/0.78元 特级虾尾冷冻小龙虾尾冰冻龙虾尾鲜活速冻500g/ 乒乓球葡萄大颗新鲜水果500g/6元 巨峰葡萄500g/6 ',
+        'color' => '#333333',
+      ),
+    ),
+  ),
+  'result' => '{"errcode":40037,"errmsg":"invalid template_id hint: [BvkjPa00904102]"}',
+)
+---------------------------------------------------------------
+[ 2019-07-20T16:26:28+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T16:26:51+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T16:29:00+08:00 ] 125.46.210.156 POST jqg.wanheezg.com/index.php?s=/store/order/transfer/order_id/10275
+[ yoshop-info ] array (
+  'describe' => '发送模板消息',
+  'url' => 'https://api.weixin.qq.com/cgi-bin/message/wxopen/template/send?access_token=23_uwTp2cbGuO-zOe8XMqjFJBxQ-a4rmcLsBwdk8HUYufA69ycw8wKvGJu96jXhKTDFeZvAJ_JNZ26fP8vNmxjfXuZQ0nJjgFnYRn7bfKD3vOnn6YYgN0qEzqmV3B-3T88i7VkQD3XV1rY2TAMBKCPhAAANFS',
+  'params' => 
+  array (
+    'touser' => 'ofFaL5S1KOZu4qCaF6bo0Vs0UG1M',
+    'template_id' => '4sgfKUbsmjWFs-Q3TsFOXR05Zct7aaDetA2YqZHpwRc',
+    'page' => 'pages/order/detail?order_id=10275',
+    'form_id' => 'wx1923262612100231695b80321480200700',
+    'data' => 
+    array (
+      'keyword1' => 
+      array (
+        'value' => '2019071949100525',
+        'color' => '#333333',
+      ),
+      'keyword2' => 
+      array (
+        'value' => '中岳七里香堤9号楼二单元',
+        'color' => '#333333',
+      ),
+      'keyword3' => 
+      array (
+        'value' => '河南省郑州市管城回族区管城中岳·七里香堤(紫东路北)',
+        'color' => '#333333',
+      ),
+      'keyword4' => 
+      array (
+        'value' => '孔祥齐',
+        'color' => '#333333',
+      ),
+      'keyword5' => 
+      array (
+        'value' => '巨峰葡萄500g/6 ',
+        'color' => '#333333',
+      ),
+    ),
+  ),
+  'result' => '{"errcode":40037,"errmsg":"invalid template_id hint: [_tfdra03408630]"}',
+)
+---------------------------------------------------------------
+[ 2019-07-20T16:29:30+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T16:29:42+08:00 ] 125.46.210.156 POST jqg.wanheezg.com/index.php?s=/store/order/transfer/order_id/10273
+[ yoshop-info ] array (
+  'describe' => '发送模板消息',
+  'url' => 'https://api.weixin.qq.com/cgi-bin/message/wxopen/template/send?access_token=23_uwTp2cbGuO-zOe8XMqjFJBxQ-a4rmcLsBwdk8HUYufA69ycw8wKvGJu96jXhKTDFeZvAJ_JNZ26fP8vNmxjfXuZQ0nJjgFnYRn7bfKD3vOnn6YYgN0qEzqmV3B-3T88i7VkQD3XV1rY2TAMBKCPhAAANFS',
+  'params' => 
+  array (
+    'touser' => 'ofFaL5ZKwuovPM5Q-KN-x2EWNAIo',
+    'template_id' => '4sgfKUbsmjWFs-Q3TsFOXR05Zct7aaDetA2YqZHpwRc',
+    'page' => 'pages/order/detail?order_id=10273',
+    'form_id' => 'wx19230158502317d213b9573f1172066700',
+    'data' => 
+    array (
+      'keyword1' => 
+      array (
+        'value' => '2019071954511005',
+        'color' => '#333333',
+      ),
+      'keyword2' => 
+      array (
+        'value' => '中岳七里香堤9号楼二单元',
+        'color' => '#333333',
+      ),
+      'keyword3' => 
+      array (
+        'value' => '河南省郑州市管城回族区管城中岳·七里香堤(紫东路北)',
+        'color' => '#333333',
+      ),
+      'keyword4' => 
+      array (
+        'value' => '孔祥齐',
+        'color' => '#333333',
+      ),
+      'keyword5' => 
+      array (
+        'value' => '甜宝甜瓜750g±50g/2.3 巨峰葡萄500g/6 农家自种新鲜非转基因水果玉米一个/1.98 新鲜紫皮无花果500g/19.8 ',
+        'color' => '#333333',
+      ),
+    ),
+  ),
+  'result' => '{"errcode":40037,"errmsg":"invalid template_id hint: [sIISYa03823942]"}',
+)
+---------------------------------------------------------------
+[ 2019-07-20T16:29:46+08:00 ] 125.46.210.156 POST jqg.wanheezg.com/index.php?s=/store/order/transfer/order_id/10274
+[ yoshop-info ] array (
+  'describe' => '发送模板消息',
+  'url' => 'https://api.weixin.qq.com/cgi-bin/message/wxopen/template/send?access_token=23_uwTp2cbGuO-zOe8XMqjFJBxQ-a4rmcLsBwdk8HUYufA69ycw8wKvGJu96jXhKTDFeZvAJ_JNZ26fP8vNmxjfXuZQ0nJjgFnYRn7bfKD3vOnn6YYgN0qEzqmV3B-3T88i7VkQD3XV1rY2TAMBKCPhAAANFS',
+  'params' => 
+  array (
+    'touser' => 'ofFaL5S1KOZu4qCaF6bo0Vs0UG1M',
+    'template_id' => '4sgfKUbsmjWFs-Q3TsFOXR05Zct7aaDetA2YqZHpwRc',
+    'page' => 'pages/order/detail?order_id=10274',
+    'form_id' => 'wx192325555918584435c791441792926300',
+    'data' => 
+    array (
+      'keyword1' => 
+      array (
+        'value' => '2019071951521015',
+        'color' => '#333333',
+      ),
+      'keyword2' => 
+      array (
+        'value' => '中岳七里香堤9号楼二单元',
+        'color' => '#333333',
+      ),
+      'keyword3' => 
+      array (
+        'value' => '河南省郑州市管城回族区管城中岳·七里香堤(紫东路北)',
+        'color' => '#333333',
+      ),
+      'keyword4' => 
+      array (
+        'value' => '孔祥祺',
+        'color' => '#333333',
+      ),
+      'keyword5' => 
+      array (
+        'value' => '水蜜桃时令新鲜水果500g/3.2元 笑脸葱香味手抓饼家庭装面饼家用速食手抓饼皮25张/36.8 ',
+        'color' => '#333333',
+      ),
+    ),
+  ),
+  'result' => '{"errcode":40037,"errmsg":"invalid template_id hint: [xSafQa03868653]"}',
+)
+---------------------------------------------------------------
+[ 2019-07-20T16:30:19+08:00 ] 125.46.210.156 POST jqg.wanheezg.com/index.php?s=/store/order/transfer/order_id/10269
+[ yoshop-info ] array (
+  'describe' => '发送模板消息',
+  'url' => 'https://api.weixin.qq.com/cgi-bin/message/wxopen/template/send?access_token=23_uwTp2cbGuO-zOe8XMqjFJBxQ-a4rmcLsBwdk8HUYufA69ycw8wKvGJu96jXhKTDFeZvAJ_JNZ26fP8vNmxjfXuZQ0nJjgFnYRn7bfKD3vOnn6YYgN0qEzqmV3B-3T88i7VkQD3XV1rY2TAMBKCPhAAANFS',
+  'params' => 
+  array (
+    'touser' => 'ofFaL5XkvIDga3RnTGuTCthbJlGM',
+    'template_id' => '4sgfKUbsmjWFs-Q3TsFOXR05Zct7aaDetA2YqZHpwRc',
+    'page' => 'pages/order/detail?order_id=10269',
+    'form_id' => 'wx19142956787611bf03bb38a61552617000',
+    'data' => 
+    array (
+      'keyword1' => 
+      array (
+        'value' => '2019071952565049',
+        'color' => '#333333',
+      ),
+      'keyword2' => 
+      array (
+        'value' => '中岳七里香堤9号楼二单元',
+        'color' => '#333333',
+      ),
+      'keyword3' => 
+      array (
+        'value' => '河南省郑州市管城回族区管城中岳·七里香堤(紫东路北)',
+        'color' => '#333333',
+      ),
+      'keyword4' => 
+      array (
+        'value' => '孔祥齐',
+        'color' => '#333333',
+      ),
+      'keyword5' => 
+      array (
+        'value' => '超友味老酸奶冰棍风味饮料十支装500g*罐/7.2元 应季新鲜酸甜脆丑小苹果蛇果500g/3.6元 甜宝甜瓜750g±50g/2.3 巨峰葡萄500g/6 ',
+        'color' => '#333333',
+      ),
+    ),
+  ),
+  'result' => '{"errcode":40037,"errmsg":"invalid template_id hint: [lGOg804194104]"}',
+)
+---------------------------------------------------------------
+[ 2019-07-20T16:31:21+08:00 ] 125.46.210.156 POST jqg.wanheezg.com/index.php?s=/store/order/transfer/order_id/10268
+[ yoshop-info ] array (
+  'describe' => '发送模板消息',
+  'url' => 'https://api.weixin.qq.com/cgi-bin/message/wxopen/template/send?access_token=23_uwTp2cbGuO-zOe8XMqjFJBxQ-a4rmcLsBwdk8HUYufA69ycw8wKvGJu96jXhKTDFeZvAJ_JNZ26fP8vNmxjfXuZQ0nJjgFnYRn7bfKD3vOnn6YYgN0qEzqmV3B-3T88i7VkQD3XV1rY2TAMBKCPhAAANFS',
+  'params' => 
+  array (
+    'touser' => 'ofFaL5YFysdddYXWTqb6moT5NT6A',
+    'template_id' => '4sgfKUbsmjWFs-Q3TsFOXR05Zct7aaDetA2YqZHpwRc',
+    'page' => 'pages/order/detail?order_id=10268',
+    'form_id' => 'wx191423348770868fe28726e21533815500',
+    'data' => 
+    array (
+      'keyword1' => 
+      array (
+        'value' => '2019071954571029',
+        'color' => '#333333',
+      ),
+      'keyword2' => 
+      array (
+        'value' => '正弘山西门家简生活',
+        'color' => '#333333',
+      ),
+      'keyword3' => 
+      array (
+        'value' => '河南省郑州市金水区金水区正弘山西门',
+        'color' => '#333333',
+      ),
+      'keyword4' => 
+      array (
+        'value' => '孔祥齐',
+        'color' => '#333333',
+      ),
+      'keyword5' => 
+      array (
+        'value' => '新鲜农家自种香菇250g±20g/4.8 夏季优选新鲜甜橙500g/7.2元 巨峰葡萄500g/6 ',
+        'color' => '#333333',
+      ),
+    ),
+  ),
+  'result' => '{"errcode":40037,"errmsg":"invalid template_id hint: [J_8bga04813941]"}',
+)
+---------------------------------------------------------------
+[ 2019-07-20T16:31:57+08:00 ] 125.46.210.156 POST jqg.wanheezg.com/index.php?s=/store/order/transfer/order_id/10267
+[ yoshop-info ] array (
+  'describe' => '发送模板消息',
+  'url' => 'https://api.weixin.qq.com/cgi-bin/message/wxopen/template/send?access_token=23_uwTp2cbGuO-zOe8XMqjFJBxQ-a4rmcLsBwdk8HUYufA69ycw8wKvGJu96jXhKTDFeZvAJ_JNZ26fP8vNmxjfXuZQ0nJjgFnYRn7bfKD3vOnn6YYgN0qEzqmV3B-3T88i7VkQD3XV1rY2TAMBKCPhAAANFS',
+  'params' => 
+  array (
+    'touser' => 'ofFaL5S1KOZu4qCaF6bo0Vs0UG1M',
+    'template_id' => '4sgfKUbsmjWFs-Q3TsFOXR05Zct7aaDetA2YqZHpwRc',
+    'page' => 'pages/order/detail?order_id=10267',
+    'form_id' => 'wx1914093299805898460acb121248525200',
+    'data' => 
+    array (
+      'keyword1' => 
+      array (
+        'value' => '2019071999985757',
+        'color' => '#333333',
+      ),
+      'keyword2' => 
+      array (
+        'value' => '中岳七里香堤9号楼二单元',
+        'color' => '#333333',
+      ),
+      'keyword3' => 
+      array (
+        'value' => '河南省郑州市管城回族区管城中岳·七里香堤(紫东路北)',
+        'color' => '#333333',
+      ),
+      'keyword4' => 
+      array (
+        'value' => '孔祥齐',
+        'color' => '#333333',
+      ),
+      'keyword5' => 
+      array (
+        'value' => '咸鸭蛋8枚/9.6元 ',
+        'color' => '#333333',
+      ),
+    ),
+  ),
+  'result' => '{"errcode":40037,"errmsg":"invalid template_id hint: [CJ_y6a05173949]"}',
+)
+---------------------------------------------------------------
+[ 2019-07-20T16:32:35+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/store/order/all_list
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563525155 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563525155 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563525155 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563525155 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T16:33:50+08:00 ] 171.8.134.111 GET jqg.wanheezg.com/index.php?s=/api/user.order/extractQrcode&order_id=10268&wxapp_id=10001&token=434b003f2dd4ae6cc04f4f99d0e0e808
+[ yoshop-info ] array (
+  'describe' => '获取小程序码',
+  'params' => 
+  array (
+    'scene' => 'oid:10268,oty:10',
+    'width' => 280,
+    'page' => 'pages/store/check/order',
+  ),
+  'result' => 'image',
+)
+---------------------------------------------------------------
+[ 2019-07-20T16:34:30+08:00 ] 125.46.210.156 POST jqg.wanheezg.com/index.php?s=/store/order/transfer/order_id/10276
+[ yoshop-info ] array (
+  'describe' => '发送模板消息',
+  'url' => 'https://api.weixin.qq.com/cgi-bin/message/wxopen/template/send?access_token=23_uwTp2cbGuO-zOe8XMqjFJBxQ-a4rmcLsBwdk8HUYufA69ycw8wKvGJu96jXhKTDFeZvAJ_JNZ26fP8vNmxjfXuZQ0nJjgFnYRn7bfKD3vOnn6YYgN0qEzqmV3B-3T88i7VkQD3XV1rY2TAMBKCPhAAANFS',
+  'params' => 
+  array (
+    'touser' => 'ofFaL5VhNeu0qKiOPid7kI1WL0Ko',
+    'template_id' => '4sgfKUbsmjWFs-Q3TsFOXR05Zct7aaDetA2YqZHpwRc',
+    'page' => 'pages/order/detail?order_id=10276',
+    'form_id' => 'wx20102422040900363ce6c96c1880982000',
+    'data' => 
+    array (
+      'keyword1' => 
+      array (
+        'value' => '2019072053981019',
+        'color' => '#333333',
+      ),
+      'keyword2' => 
+      array (
+        'value' => '中岳七里香堤9号楼二单元',
+        'color' => '#333333',
+      ),
+      'keyword3' => 
+      array (
+        'value' => '河南省郑州市管城回族区管城中岳·七里香堤(紫东路北)',
+        'color' => '#333333',
+      ),
+      'keyword4' => 
+      array (
+        'value' => '孔祥齐',
+        'color' => '#333333',
+      ),
+      'keyword5' => 
+      array (
+        'value' => '新鲜鱼太平洋鳕鱼片中段冷冻海鲜水产480±20装/18.8 ',
+        'color' => '#333333',
+      ),
+    ),
+  ),
+  'result' => '{"errcode":40037,"errmsg":"invalid template_id hint: [rP_K3a06704106]"}',
+)
+---------------------------------------------------------------
+[ 2019-07-20T16:42:05+08:00 ] 171.8.134.111 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=76b4ef2d352d803404d3a16f502a9544
+[ yoshop-info ] UserCoupon --setExpired --couponIds []
+---------------------------------------------------------------
+[ 2019-07-20T16:51:51+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563526311 --orderIds [10270]
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563526311 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563526311 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563526311 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T16:51:54+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Order --close --close_days 1 --deadline_time 1563526314 --orderIds []
+[ yoshop-info ] behavior sharing Order --receive --receive_days 1 --deadline_time 1563526314 --orderIds []
+[ yoshop-info ] behavior sharing Order --setIncUserExpend --refund_days 1 --deadline_time 1563526314 --orderIds [] --userDatas []
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T16:53:08+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T17:13:26+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/store/order/transfer_list
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563527606 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563527606 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563527606 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563527606 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T17:20:18+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T17:24:11+08:00 ] 117.136.104.152 GET jqg.wanheezg.com/index.php?s=/api/order/buyNow&delivery=0&shop_id=10039&coupon_id=0&goods_id=10189&goods_num=2&goods_sku_id=0&wxapp_id=10001&token=ba6095e9f55ca5151da8fc53178863d6
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563528251 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563528251 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563528251 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563528251 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T17:24:42+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T17:24:56+08:00 ] 140.207.54.77 POST jqg.wanheezg.com/notice.php
+[ yoshop-info ] <xml><appid><![CDATA[wx1607c34e8bf483ad]]></appid>
+<attach><![CDATA[{"order_type":10}]]></attach>
+<bank_type><![CDATA[CMBC_CREDIT]]></bank_type>
+<cash_fee><![CDATA[3860]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1494678572]]></mch_id>
+<nonce_str><![CDATA[2c23463f77afdfb398e1a531c5019c5a]]></nonce_str>
+<openid><![CDATA[ofFaL5VhNeu0qKiOPid7kI1WL0Ko]]></openid>
+<out_trade_no><![CDATA[2019072097100501]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[03130750F53E733A09963BA78AC8FAED]]></sign>
+<time_end><![CDATA[20190720172455]]></time_end>
+<total_fee>3860</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000340201907205037483804]]></transaction_id>
+</xml>
+[ yoshop-info ] array (
+  'appid' => 'wx1607c34e8bf483ad',
+  'attach' => '{"order_type":10}',
+  'bank_type' => 'CMBC_CREDIT',
+  'cash_fee' => '3860',
+  'fee_type' => 'CNY',
+  'is_subscribe' => 'N',
+  'mch_id' => '1494678572',
+  'nonce_str' => '2c23463f77afdfb398e1a531c5019c5a',
+  'openid' => 'ofFaL5VhNeu0qKiOPid7kI1WL0Ko',
+  'out_trade_no' => '2019072097100501',
+  'result_code' => 'SUCCESS',
+  'return_code' => 'SUCCESS',
+  'sign' => '03130750F53E733A09963BA78AC8FAED',
+  'time_end' => '20190720172455',
+  'total_fee' => '3860',
+  'trade_type' => 'JSAPI',
+  'transaction_id' => '4200000340201907205037483804',
+)
+[ yoshop-info ] array (
+  'describe' => '获取access_token',
+  'url' => 'https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx1607c34e8bf483ad&secret=6a0ad7d8579db45b2c5b1f6880bf1cb8',
+  'appId' => 'wx1607c34e8bf483ad',
+  'result' => '{"access_token":"23_HaL4MX7S_gwgL0762u-PhBMrZjaW1I7Jjr3opAbyra3HM8ffMCxI-iHWeaRPbo8WGvFr8NbuMbXIjl1IeP6tiBNQ0ft4WVJaeu0aCKtp_zGlF5almOelLXq1q0oTJSdAJABRA","expires_in":7200}',
+)
+[ yoshop-info ] array (
+  'describe' => '发送模板消息',
+  'url' => 'https://api.weixin.qq.com/cgi-bin/message/wxopen/template/send?access_token=23_HaL4MX7S_gwgL0762u-PhBMrZjaW1I7Jjr3opAbyra3HM8ffMCxI-iHWeaRPbo8WGvFr8NbuMbXIjl1IeP6tiBNQ0ft4WVJaeu0aCKtp_zGlF5almOelLXq1q0oTJSdAJABRA',
+  'params' => 
+  array (
+    'touser' => 'ofFaL5VhNeu0qKiOPid7kI1WL0Ko',
+    'template_id' => 'R7M9VGUPM4c29NXvzs_fdmE5f69X2PWC3qYTp0CBLjc',
+    'page' => 'pages/order/detail?order_id=10287',
+    'form_id' => 'wx2017244310054424a35bce541601690600',
+    'data' => 
+    array (
+      'keyword1' => 
+      array (
+        'value' => '2019072097100501',
+        'color' => '#333333',
+      ),
+      'keyword2' => 
+      array (
+        'value' => '2019-07-20 17:24:56',
+        'color' => '#333333',
+      ),
+      'keyword3' => 
+      array (
+        'value' => '38.60',
+        'color' => '#333333',
+      ),
+      'keyword4' => 
+      array (
+        'value' => '特级虾尾冷冻小龙虾尾冰冻龙虾尾鲜活速冻500g/ ',
+        'color' => '#333333',
+      ),
+    ),
+  ),
+  'result' => '{"errcode":40037,"errmsg":"invalid template_id hint: [qH2Mha06964128]"}',
+)
+[ yoshop-info ] array (
+  'describe' => '返回微信支付状态',
+  'data' => 
+  array (
+    'return_code' => 'SUCCESS',
+    'return_msg' => 'OK',
+  ),
+)
+---------------------------------------------------------------
+[ 2019-07-20T17:29:23+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=46063be036d5b60ba9930bb1fe68155c
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T17:31:48+08:00 ] 106.34.147.143 GET jqg.wanheezg.com/index.php?s=/api/page/qrcode&shop_id=10047&wxapp_id=10001&token=942f41ac8c4ca96fc8739c587795bd08
+[ yoshop-info ] array (
+  'describe' => '获取小程序码',
+  'params' => 
+  array (
+    'scene' => 'shopid:10047,uid:10120',
+    'width' => 280,
+  ),
+  'result' => 'image',
+)
+---------------------------------------------------------------
+[ 2019-07-20T17:32:50+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/api/page/qrcode&shop_id=10038&wxapp_id=10001&token=ba604722cb1ab6e926e6d6f83fbec91c
+[ yoshop-info ] array (
+  'describe' => '获取小程序码',
+  'params' => 
+  array (
+    'scene' => 'shopid:10038,uid:10134',
+    'width' => 280,
+  ),
+  'result' => 'image',
+)
+---------------------------------------------------------------
+[ 2019-07-20T17:34:45+08:00 ] 223.88.64.30 GET jqg.wanheezg.com/index.php?s=/api/user.order/shareDetail&order_id=10285&wxapp_id=10001&token=151bde32ef6dfc4a0a771e7cdd48c968
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563528885 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563528885 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563528885 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563528885 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T17:36:08+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/api/page/qrcode&shop_id=10035&wxapp_id=10001&token=c4b57760d55c54434415eaf627f1c30c
+[ yoshop-info ] array (
+  'describe' => '获取小程序码',
+  'params' => 
+  array (
+    'scene' => 'shopid:10035,uid:10134',
+    'width' => 280,
+  ),
+  'result' => 'image',
+)
+---------------------------------------------------------------
+[ 2019-07-20T17:36:55+08:00 ] 140.207.54.77 POST jqg.wanheezg.com/notice.php
+[ yoshop-info ] <xml><appid><![CDATA[wx1607c34e8bf483ad]]></appid>
+<attach><![CDATA[{"order_type":10}]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[2111]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1494678572]]></mch_id>
+<nonce_str><![CDATA[caae0aa7601dbe04160600ed31387abf]]></nonce_str>
+<openid><![CDATA[ofFaL5antBY1svjCxbd3Xmv4_5Ns]]></openid>
+<out_trade_no><![CDATA[2019072053519757]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[15BF60338DD4FB5B7FB07389FBACF019]]></sign>
+<time_end><![CDATA[20190720173654]]></time_end>
+<total_fee>2111</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000351201907209875071633]]></transaction_id>
+</xml>
+[ yoshop-info ] array (
+  'appid' => 'wx1607c34e8bf483ad',
+  'attach' => '{"order_type":10}',
+  'bank_type' => 'CFT',
+  'cash_fee' => '2111',
+  'fee_type' => 'CNY',
+  'is_subscribe' => 'N',
+  'mch_id' => '1494678572',
+  'nonce_str' => 'caae0aa7601dbe04160600ed31387abf',
+  'openid' => 'ofFaL5antBY1svjCxbd3Xmv4_5Ns',
+  'out_trade_no' => '2019072053519757',
+  'result_code' => 'SUCCESS',
+  'return_code' => 'SUCCESS',
+  'sign' => '15BF60338DD4FB5B7FB07389FBACF019',
+  'time_end' => '20190720173654',
+  'total_fee' => '2111',
+  'trade_type' => 'JSAPI',
+  'transaction_id' => '4200000351201907209875071633',
+)
+[ yoshop-info ] array (
+  'describe' => '发送模板消息',
+  'url' => 'https://api.weixin.qq.com/cgi-bin/message/wxopen/template/send?access_token=23_HaL4MX7S_gwgL0762u-PhBMrZjaW1I7Jjr3opAbyra3HM8ffMCxI-iHWeaRPbo8WGvFr8NbuMbXIjl1IeP6tiBNQ0ft4WVJaeu0aCKtp_zGlF5almOelLXq1q0oTJSdAJABRA',
+  'params' => 
+  array (
+    'touser' => 'ofFaL5antBY1svjCxbd3Xmv4_5Ns',
+    'template_id' => 'R7M9VGUPM4c29NXvzs_fdmE5f69X2PWC3qYTp0CBLjc',
+    'page' => 'pages/order/detail?order_id=10289',
+    'form_id' => 'wx201736374544635e4ef640fa1565241800',
+    'data' => 
+    array (
+      'keyword1' => 
+      array (
+        'value' => '2019072053519757',
+        'color' => '#333333',
+      ),
+      'keyword2' => 
+      array (
+        'value' => '2019-07-20 17:36:55',
+        'color' => '#333333',
+      ),
+      'keyword3' => 
+      array (
+        'value' => '21.11',
+        'color' => '#333333',
+      ),
+      'keyword4' => 
+      array (
+        'value' => '现摘新鲜小番茄2.98元/约400g 新鲜水果小黄瓜 450g/3.98元 河南土特产变蛋10枚/7元 新鲜蔬菜农家自种嫩小冬瓜1200g±100g/1.98 新鲜甜脆小白菜400g/2.99 白萝卜 新鲜白萝卜500g±100g/1.38 红塔瓦罐带鱼罐头408g*罐/10.8元 ',
+        'color' => '#333333',
+      ),
+    ),
+  ),
+  'result' => '{"errcode":40037,"errmsg":"invalid template_id hint: [gw.m604153113]"}',
+)
+[ yoshop-info ] array (
+  'describe' => '返回微信支付状态',
+  'data' => 
+  array (
+    'return_code' => 'SUCCESS',
+    'return_msg' => 'OK',
+  ),
+)
+---------------------------------------------------------------
+[ 2019-07-20T17:42:33+08:00 ] 123.149.211.216 GET jqg.wanheezg.com/index.php?s=/api/order/cart&delivery=0&shop_id=10040&coupon_id=0&cart_ids=10016_0%2C10049_0%2C10149_0%2C10155_0%2C10158_0%2C10159_0%2C10160_0%2C10213_0%2C10214_0&wxapp_id=10001&token=848c8a748b472b1f31c1e8c13491c990
+[ yoshop-info ] UserCoupon --setExpired --couponIds []
+---------------------------------------------------------------
+[ 2019-07-20T17:45:58+08:00 ] 223.88.36.81 GET jqg.wanheezg.com/index.php?s=/api/user.order/shareDetail&order_id=10289&wxapp_id=10001&token=10022a4c8ce21f04408a8ead9f04a802
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563529558 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563529558 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563529558 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563529558 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T17:56:41+08:00 ] 223.88.64.30 GET jqg.wanheezg.com/index.php?s=/api/cart/lists&wxapp_id=10001&token=151bde32ef6dfc4a0a771e7cdd48c968
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563530201 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563530201 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563530201 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563530201 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T17:57:20+08:00 ] 140.207.54.76 POST jqg.wanheezg.com/notice.php
+[ yoshop-info ] <xml><appid><![CDATA[wx1607c34e8bf483ad]]></appid>
+<attach><![CDATA[{"order_type":10}]]></attach>
+<bank_type><![CDATA[ICBC_CREDIT]]></bank_type>
+<cash_fee><![CDATA[2120]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1494678572]]></mch_id>
+<nonce_str><![CDATA[355245e347bb44b334ecbed49ad1e94f]]></nonce_str>
+<openid><![CDATA[ofFaL5b0b1OlLsyZPr8wb1x8xOZg]]></openid>
+<out_trade_no><![CDATA[2019072052539710]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[FA8825383C13D09A320E65B243E0A9FF]]></sign>
+<time_end><![CDATA[20190720175719]]></time_end>
+<total_fee>2120</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000345201907202250700160]]></transaction_id>
+</xml>
+[ yoshop-info ] array (
+  'appid' => 'wx1607c34e8bf483ad',
+  'attach' => '{"order_type":10}',
+  'bank_type' => 'ICBC_CREDIT',
+  'cash_fee' => '2120',
+  'fee_type' => 'CNY',
+  'is_subscribe' => 'N',
+  'mch_id' => '1494678572',
+  'nonce_str' => '355245e347bb44b334ecbed49ad1e94f',
+  'openid' => 'ofFaL5b0b1OlLsyZPr8wb1x8xOZg',
+  'out_trade_no' => '2019072052539710',
+  'result_code' => 'SUCCESS',
+  'return_code' => 'SUCCESS',
+  'sign' => 'FA8825383C13D09A320E65B243E0A9FF',
+  'time_end' => '20190720175719',
+  'total_fee' => '2120',
+  'trade_type' => 'JSAPI',
+  'transaction_id' => '4200000345201907202250700160',
+)
+[ yoshop-info ] array (
+  'describe' => '发送模板消息',
+  'url' => 'https://api.weixin.qq.com/cgi-bin/message/wxopen/template/send?access_token=23_HaL4MX7S_gwgL0762u-PhBMrZjaW1I7Jjr3opAbyra3HM8ffMCxI-iHWeaRPbo8WGvFr8NbuMbXIjl1IeP6tiBNQ0ft4WVJaeu0aCKtp_zGlF5almOelLXq1q0oTJSdAJABRA',
+  'params' => 
+  array (
+    'touser' => 'ofFaL5b0b1OlLsyZPr8wb1x8xOZg',
+    'template_id' => 'R7M9VGUPM4c29NXvzs_fdmE5f69X2PWC3qYTp0CBLjc',
+    'page' => 'pages/order/detail?order_id=10290',
+    'form_id' => 'wx20175708594469cf1968300c1753647500',
+    'data' => 
+    array (
+      'keyword1' => 
+      array (
+        'value' => '2019072052539710',
+        'color' => '#333333',
+      ),
+      'keyword2' => 
+      array (
+        'value' => '2019-07-20 17:57:20',
+        'color' => '#333333',
+      ),
+      'keyword3' => 
+      array (
+        'value' => '21.20',
+        'color' => '#333333',
+      ),
+      'keyword4' => 
+      array (
+        'value' => '特级天然大无花果 250g/15.6元 散装新货桂圆干250g/6元 新鲜鸡蛋每斤/4.8元 ',
+        'color' => '#333333',
+      ),
+    ),
+  ),
+  'result' => '{"errcode":40037,"errmsg":"invalid template_id hint: [EzKIoA06402277]"}',
+)
+[ yoshop-info ] array (
+  'describe' => '返回微信支付状态',
+  'data' => 
+  array (
+    'return_code' => 'SUCCESS',
+    'return_msg' => 'OK',
+  ),
+)
+---------------------------------------------------------------
+[ 2019-07-20T18:08:21+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563530901 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563530901 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563530901 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563530901 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T18:08:28+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Order --close --close_days 1 --deadline_time 1563530908 --orderIds []
+[ yoshop-info ] behavior sharing Order --receive --receive_days 1 --deadline_time 1563530908 --orderIds []
+[ yoshop-info ] behavior sharing Order --setIncUserExpend --refund_days 1 --deadline_time 1563530908 --orderIds [] --userDatas []
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T18:26:30+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=%2Fstore%2Forder%2Fall_list&dataType=all&delivery_type=&extract_shop_id=10042&start_time=&end_time=&search=
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563531990 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563531990 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563531990 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563531990 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T18:31:28+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T18:31:43+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T18:36:27+08:00 ] 140.207.54.76 POST jqg.wanheezg.com/notice.php
+[ yoshop-info ] <xml><appid><![CDATA[wx1607c34e8bf483ad]]></appid>
+<attach><![CDATA[{"order_type":10}]]></attach>
+<bank_type><![CDATA[COMM_CREDIT]]></bank_type>
+<cash_fee><![CDATA[2160]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1494678572]]></mch_id>
+<nonce_str><![CDATA[87db6955057b621296b15614988183e7]]></nonce_str>
+<openid><![CDATA[ofFaL5e1dAEwESpUnfvIlqc-w3E0]]></openid>
+<out_trade_no><![CDATA[2019072052575257]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[0C3859C906A7892B1E7D33CAEF1D10E1]]></sign>
+<time_end><![CDATA[20190720183627]]></time_end>
+<total_fee>2160</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000350201907203258682916]]></transaction_id>
+</xml>
+[ yoshop-info ] array (
+  'appid' => 'wx1607c34e8bf483ad',
+  'attach' => '{"order_type":10}',
+  'bank_type' => 'COMM_CREDIT',
+  'cash_fee' => '2160',
+  'fee_type' => 'CNY',
+  'is_subscribe' => 'N',
+  'mch_id' => '1494678572',
+  'nonce_str' => '87db6955057b621296b15614988183e7',
+  'openid' => 'ofFaL5e1dAEwESpUnfvIlqc-w3E0',
+  'out_trade_no' => '2019072052575257',
+  'result_code' => 'SUCCESS',
+  'return_code' => 'SUCCESS',
+  'sign' => '0C3859C906A7892B1E7D33CAEF1D10E1',
+  'time_end' => '20190720183627',
+  'total_fee' => '2160',
+  'trade_type' => 'JSAPI',
+  'transaction_id' => '4200000350201907203258682916',
+)
+[ yoshop-info ] array (
+  'describe' => '发送模板消息',
+  'url' => 'https://api.weixin.qq.com/cgi-bin/message/wxopen/template/send?access_token=23_HaL4MX7S_gwgL0762u-PhBMrZjaW1I7Jjr3opAbyra3HM8ffMCxI-iHWeaRPbo8WGvFr8NbuMbXIjl1IeP6tiBNQ0ft4WVJaeu0aCKtp_zGlF5almOelLXq1q0oTJSdAJABRA',
+  'params' => 
+  array (
+    'touser' => 'ofFaL5e1dAEwESpUnfvIlqc-w3E0',
+    'template_id' => 'R7M9VGUPM4c29NXvzs_fdmE5f69X2PWC3qYTp0CBLjc',
+    'page' => 'pages/order/detail?order_id=10291',
+    'form_id' => 'wx2018362083795257984c2f7f1095004000',
+    'data' => 
+    array (
+      'keyword1' => 
+      array (
+        'value' => '2019072052575257',
+        'color' => '#333333',
+      ),
+      'keyword2' => 
+      array (
+        'value' => '2019-07-20 18:36:27',
+        'color' => '#333333',
+      ),
+      'keyword3' => 
+      array (
+        'value' => '21.60',
+        'color' => '#333333',
+      ),
+      'keyword4' => 
+      array (
+        'value' => '特级虾尾冷冻小龙虾尾冰冻龙虾尾鲜活速冻500g/ 新鲜农家自种香菇250g±20g/4.8 ',
+        'color' => '#333333',
+      ),
+    ),
+  ),
+  'result' => '{"errcode":40037,"errmsg":"invalid template_id hint: [JsGBea0987shc2]"}',
+)
+[ yoshop-info ] array (
+  'describe' => '返回微信支付状态',
+  'data' => 
+  array (
+    'return_code' => 'SUCCESS',
+    'return_msg' => 'OK',
+  ),
+)
+---------------------------------------------------------------
+[ 2019-07-20T18:36:32+08:00 ] 125.40.64.199 GET jqg.wanheezg.com/index.php?s=/api/order/cart&delivery=20&shop_id=10039&coupon_id=10029&cart_ids=10189_0%2C10044_0&wxapp_id=10001&token=d2966fc3a242d85758fc9448d2c3d2b7
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563532592 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563532592 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563532592 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563532592 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T18:47:39+08:00 ] 117.136.104.35 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=d2966fc3a242d85758fc9448d2c3d2b7
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563533259 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563533259 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563533259 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563533259 --orderIds [] --userDatas []
+[ yoshop-info ] UserCoupon --setExpired --couponIds []
+---------------------------------------------------------------
+[ 2019-07-20T19:01:52+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=/store/index/index
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563534112 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563534112 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563534112 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563534112 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T19:12:08+08:00 ] 223.104.19.53 GET jqg.wanheezg.com/index.php?s=/api/cart/lists&wxapp_id=10001&token=db1b192f419f6daf0853ca10de333b6b
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563534728 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563534728 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563534728 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563534728 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T19:21:20+08:00 ] 140.207.54.76 POST jqg.wanheezg.com/notice.php
+[ yoshop-info ] <xml><appid><![CDATA[wx1607c34e8bf483ad]]></appid>
+<attach><![CDATA[{"order_type":10}]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1360]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1494678572]]></mch_id>
+<nonce_str><![CDATA[42741f86a381e25a92c8e96afe75d9c3]]></nonce_str>
+<openid><![CDATA[ofFaL5exlbkWgW6jqoFV_5SU2XF8]]></openid>
+<out_trade_no><![CDATA[2019072057539855]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[AAC1EF649C6CB59579961D5DE0A7DA73]]></sign>
+<time_end><![CDATA[20190720192119]]></time_end>
+<total_fee>1360</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000350201907207377856203]]></transaction_id>
+</xml>
+[ yoshop-info ] array (
+  'appid' => 'wx1607c34e8bf483ad',
+  'attach' => '{"order_type":10}',
+  'bank_type' => 'CFT',
+  'cash_fee' => '1360',
+  'fee_type' => 'CNY',
+  'is_subscribe' => 'N',
+  'mch_id' => '1494678572',
+  'nonce_str' => '42741f86a381e25a92c8e96afe75d9c3',
+  'openid' => 'ofFaL5exlbkWgW6jqoFV_5SU2XF8',
+  'out_trade_no' => '2019072057539855',
+  'result_code' => 'SUCCESS',
+  'return_code' => 'SUCCESS',
+  'sign' => 'AAC1EF649C6CB59579961D5DE0A7DA73',
+  'time_end' => '20190720192119',
+  'total_fee' => '1360',
+  'trade_type' => 'JSAPI',
+  'transaction_id' => '4200000350201907207377856203',
+)
+[ yoshop-info ] array (
+  'describe' => '获取access_token',
+  'url' => 'https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx1607c34e8bf483ad&secret=6a0ad7d8579db45b2c5b1f6880bf1cb8',
+  'appId' => 'wx1607c34e8bf483ad',
+  'result' => '{"access_token":"23_e67s-F3o199fUaeKxMmB1XdbV9SA-ePfaQSFK37HBINvWCAs2HqtngKYs0oOH23_6TYBkhc8wf8a9uxBi2F9QXPGpDi3zwFit4zFXdWVVygUe-wTafSzW-Ai6x3m8xN_PYZtEO7XeLRq23-5CUWiAAALDF","expires_in":7200}',
+)
+[ yoshop-info ] array (
+  'describe' => '发送模板消息',
+  'url' => 'https://api.weixin.qq.com/cgi-bin/message/wxopen/template/send?access_token=23_e67s-F3o199fUaeKxMmB1XdbV9SA-ePfaQSFK37HBINvWCAs2HqtngKYs0oOH23_6TYBkhc8wf8a9uxBi2F9QXPGpDi3zwFit4zFXdWVVygUe-wTafSzW-Ai6x3m8xN_PYZtEO7XeLRq23-5CUWiAAALDF',
+  'params' => 
+  array (
+    'touser' => 'ofFaL5exlbkWgW6jqoFV_5SU2XF8',
+    'template_id' => 'R7M9VGUPM4c29NXvzs_fdmE5f69X2PWC3qYTp0CBLjc',
+    'page' => 'pages/order/detail?order_id=10292',
+    'form_id' => 'wx20192113616613d3072ef6281613991500',
+    'data' => 
+    array (
+      'keyword1' => 
+      array (
+        'value' => '2019072057539855',
+        'color' => '#333333',
+      ),
+      'keyword2' => 
+      array (
+        'value' => '2019-07-20 19:21:19',
+        'color' => '#333333',
+      ),
+      'keyword3' => 
+      array (
+        'value' => '13.60',
+        'color' => '#333333',
+      ),
+      'keyword4' => 
+      array (
+        'value' => '巨峰葡萄750g±20g/9元 甜宝甜瓜750g±50g/2.3 ',
+        'color' => '#333333',
+      ),
+    ),
+  ),
+  'result' => '{"errcode":40037,"errmsg":"invalid template_id hint: [OlGT7a06804100]"}',
+)
+[ yoshop-info ] array (
+  'describe' => '返回微信支付状态',
+  'data' => 
+  array (
+    'return_code' => 'SUCCESS',
+    'return_msg' => 'OK',
+  ),
+)
+---------------------------------------------------------------
+[ 2019-07-20T19:24:12+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=%2Fstore%2Forder%2Fall_list&dataType=all&delivery_type=&extract_shop_id=-1&start_time=&end_time=&search=
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563535452 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563535452 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563535452 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563535452 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T19:34:59+08:00 ] 223.104.19.53 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=db1b192f419f6daf0853ca10de333b6b
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563536099 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563536099 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563536099 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563536099 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T19:45:17+08:00 ] 125.46.210.156 GET jqg.wanheezg.com/index.php?s=%2Fstore%2Forder%2Fall_list&dataType=all&delivery_type=&extract_shop_id=&start_time=2019-07-20&end_time=&search=&page=2
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563536717 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563536717 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563536717 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563536717 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T19:48:10+08:00 ] 223.104.19.53 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=db1b192f419f6daf0853ca10de333b6b
+[ yoshop-info ] UserCoupon --setExpired --couponIds []
+---------------------------------------------------------------
+[ 2019-07-20T20:20:55+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563538855 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563538855 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563538855 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563538855 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T20:20:57+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Order --close --close_days 1 --deadline_time 1563538857 --orderIds []
+[ yoshop-info ] behavior sharing Order --receive --receive_days 1 --deadline_time 1563538857 --orderIds []
+[ yoshop-info ] behavior sharing Order --setIncUserExpend --refund_days 1 --deadline_time 1563538857 --orderIds [] --userDatas []
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T20:23:49+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T20:24:05+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T20:24:35+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T20:25:36+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T20:26:40+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T20:27:05+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T20:28:24+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T20:36:16+08:00 ] 106.34.40.122 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=124d791a3a2a36780d026d54bcfc8da8
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563539776 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563539776 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563539776 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563539776 --orderIds [] --userDatas []
+[ yoshop-info ] array (
+  'describe' => '获取小程序码',
+  'params' => 
+  array (
+    'scene' => 'uid:10191',
+    'width' => 280,
+    'page' => 'pages/store/check/all',
+  ),
+  'result' => 'image',
+)
+---------------------------------------------------------------
+[ 2019-07-20T20:43:25+08:00 ] 115.60.135.200 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=5b6c5f540b67585a851435f35523852f
+[ yoshop-info ] array (
+  'describe' => '获取小程序码',
+  'params' => 
+  array (
+    'scene' => 'uid:10192',
+    'width' => 280,
+    'page' => 'pages/store/check/all',
+  ),
+  'result' => 'image',
+)
+---------------------------------------------------------------
+[ 2019-07-20T20:45:09+08:00 ] 140.207.54.76 POST jqg.wanheezg.com/notice.php
+[ yoshop-info ] <xml><appid><![CDATA[wx1607c34e8bf483ad]]></appid>
+<attach><![CDATA[{"order_type":10}]]></attach>
+<bank_type><![CDATA[ICBC_CREDIT]]></bank_type>
+<cash_fee><![CDATA[4256]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1494678572]]></mch_id>
+<nonce_str><![CDATA[b468da8b3e116e1abed01448bfdef7a1]]></nonce_str>
+<openid><![CDATA[ofFaL5du29vb23ofTikh6RUnM1-M]]></openid>
+<out_trade_no><![CDATA[2019072097995048]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[9A612209B2C0A92BC0CDE04644471354]]></sign>
+<time_end><![CDATA[20190720204508]]></time_end>
+<total_fee>4256</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000353201907208078899519]]></transaction_id>
+</xml>
+[ yoshop-info ] array (
+  'appid' => 'wx1607c34e8bf483ad',
+  'attach' => '{"order_type":10}',
+  'bank_type' => 'ICBC_CREDIT',
+  'cash_fee' => '4256',
+  'fee_type' => 'CNY',
+  'is_subscribe' => 'N',
+  'mch_id' => '1494678572',
+  'nonce_str' => 'b468da8b3e116e1abed01448bfdef7a1',
+  'openid' => 'ofFaL5du29vb23ofTikh6RUnM1-M',
+  'out_trade_no' => '2019072097995048',
+  'result_code' => 'SUCCESS',
+  'return_code' => 'SUCCESS',
+  'sign' => '9A612209B2C0A92BC0CDE04644471354',
+  'time_end' => '20190720204508',
+  'total_fee' => '4256',
+  'trade_type' => 'JSAPI',
+  'transaction_id' => '4200000353201907208078899519',
+)
+[ yoshop-info ] array (
+  'describe' => '发送模板消息',
+  'url' => 'https://api.weixin.qq.com/cgi-bin/message/wxopen/template/send?access_token=23_e67s-F3o199fUaeKxMmB1XdbV9SA-ePfaQSFK37HBINvWCAs2HqtngKYs0oOH23_6TYBkhc8wf8a9uxBi2F9QXPGpDi3zwFit4zFXdWVVygUe-wTafSzW-Ai6x3m8xN_PYZtEO7XeLRq23-5CUWiAAALDF',
+  'params' => 
+  array (
+    'touser' => 'ofFaL5du29vb23ofTikh6RUnM1-M',
+    'template_id' => 'R7M9VGUPM4c29NXvzs_fdmE5f69X2PWC3qYTp0CBLjc',
+    'page' => 'pages/order/detail?order_id=10293',
+    'form_id' => 'wx20204459078081a7690903db1325811200',
+    'data' => 
+    array (
+      'keyword1' => 
+      array (
+        'value' => '2019072097995048',
+        'color' => '#333333',
+      ),
+      'keyword2' => 
+      array (
+        'value' => '2019-07-20 20:45:09',
+        'color' => '#333333',
+      ),
+      'keyword3' => 
+      array (
+        'value' => '42.56',
+        'color' => '#333333',
+      ),
+      'keyword4' => 
+      array (
+        'value' => '新鲜鸡蛋每斤/4.8元 大芹菜450g±20g/1.5元 上海青450g±20g/1.38元 巨峰葡萄750g±20g/9元 新鲜藤木青苹果500g/3.5元 越南白心火龙果新鲜水果约500g/7.2元 ',
+        'color' => '#333333',
+      ),
+    ),
+  ),
+  'result' => '{"errcode":40037,"errmsg":"invalid template_id hint: [LSpiea07098653]"}',
+)
+[ yoshop-info ] array (
+  'describe' => '返回微信支付状态',
+  'data' => 
+  array (
+    'return_code' => 'SUCCESS',
+    'return_msg' => 'OK',
+  ),
+)
+---------------------------------------------------------------
+[ 2019-07-20T20:46:17+08:00 ] 223.88.64.105 GET jqg.wanheezg.com/index.php?s=/api/order/buyNow&delivery=0&shop_id=10039&coupon_id=0&goods_id=10052&goods_num=1&goods_sku_id=0&wxapp_id=10001&token=5df0b34fdb3c480a27faef3d59c94984
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563540377 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563540377 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563540377 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563540377 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T20:48:37+08:00 ] 223.88.36.67 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=c56ff86053ee9cfec5aac333ac836442
+[ yoshop-info ] UserCoupon --setExpired --couponIds []
+[ yoshop-info ] array (
+  'describe' => '获取小程序码',
+  'params' => 
+  array (
+    'scene' => 'uid:10194',
+    'width' => 280,
+    'page' => 'pages/store/check/all',
+  ),
+  'result' => 'image',
+)
+---------------------------------------------------------------
+[ 2019-07-20T20:51:18+08:00 ] 117.136.104.86 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T20:51:36+08:00 ] 117.136.104.86 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T20:53:12+08:00 ] 223.88.64.105 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=5df0b34fdb3c480a27faef3d59c94984
+[ yoshop-info ] array (
+  'describe' => '获取小程序码',
+  'params' => 
+  array (
+    'scene' => 'uid:10193',
+    'width' => 280,
+    'page' => 'pages/store/check/all',
+  ),
+  'result' => 'image',
+)
+---------------------------------------------------------------
+[ 2019-07-20T21:23:29+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563542609 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563542609 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563542609 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563542609 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T21:23:31+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Order --close --close_days 1 --deadline_time 1563542611 --orderIds []
+[ yoshop-info ] behavior sharing Order --receive --receive_days 1 --deadline_time 1563542611 --orderIds []
+[ yoshop-info ] behavior sharing Order --setIncUserExpend --refund_days 1 --deadline_time 1563542611 --orderIds [] --userDatas []
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T21:28:00+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T21:28:13+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T21:32:35+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T21:33:23+08:00 ] 1.198.217.138 GET jqg.wanheezg.com/index.php?s=/api/page/qrcode&shop_id=10044&wxapp_id=10001&token=7abb065c033c614bb52350fccd12b9fa
+[ yoshop-info ] array (
+  'describe' => '获取access_token',
+  'url' => 'https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx1607c34e8bf483ad&secret=6a0ad7d8579db45b2c5b1f6880bf1cb8',
+  'appId' => 'wx1607c34e8bf483ad',
+  'result' => '{"access_token":"23_Ne-DIzAD_AcZI9uRXvNc-b7MdWLBiJXCPDT1SUAuylYdTmY5ceMgqkwl7CltyeDkfORTB2rHOgdv7cpEBSdi-kay7P1KLbeqy-LdC3dPPljaEfvKK3RxPD6QgeW-2WBM4G3e5da7Dp6SqyjtXNDbAAAOEU","expires_in":7200}',
+)
+[ yoshop-info ] array (
+  'describe' => '获取小程序码',
+  'params' => 
+  array (
+    'scene' => 'shopid:10044,uid:10160',
+    'width' => 280,
+  ),
+  'result' => 'image',
+)
+---------------------------------------------------------------
+[ 2019-07-20T21:44:32+08:00 ] 223.88.0.225 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=06191693f458ae6b210ffd3aa830ae7c
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563543872 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563543872 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563543872 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563543872 --orderIds [] --userDatas []
+[ yoshop-info ] array (
+  'describe' => '获取小程序码',
+  'params' => 
+  array (
+    'scene' => 'uid:10196',
+    'width' => 280,
+    'page' => 'pages/store/check/all',
+  ),
+  'result' => 'image',
+)
+---------------------------------------------------------------
+[ 2019-07-20T21:47:17+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T21:49:21+08:00 ] 223.88.0.225 GET jqg.wanheezg.com/index.php?s=/api/order/buyNow&delivery=0&shop_id=10039&coupon_id=0&goods_id=10193&goods_num=2&goods_sku_id=0&wxapp_id=10001&token=06191693f458ae6b210ffd3aa830ae7c
+[ yoshop-info ] UserCoupon --setExpired --couponIds []
+---------------------------------------------------------------
+[ 2019-07-20T21:54:15+08:00 ] 140.207.54.77 POST jqg.wanheezg.com/notice.php
+[ yoshop-info ] <xml><appid><![CDATA[wx1607c34e8bf483ad]]></appid>
+<attach><![CDATA[{"order_type":10}]]></attach>
+<bank_type><![CDATA[CCB_DEBIT]]></bank_type>
+<cash_fee><![CDATA[2960]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1494678572]]></mch_id>
+<nonce_str><![CDATA[82392035482449eef7e332dc48ceae26]]></nonce_str>
+<openid><![CDATA[ofFaL5Tc-ZfC8A3jUMyKerlzKMg4]]></openid>
+<out_trade_no><![CDATA[2019072049539848]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[897ACB5B4D0DA9B0F9BBD5D58123D2B7]]></sign>
+<time_end><![CDATA[20190720215414]]></time_end>
+<total_fee>2960</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4200000345201907202160225333]]></transaction_id>
+</xml>
+[ yoshop-info ] array (
+  'appid' => 'wx1607c34e8bf483ad',
+  'attach' => '{"order_type":10}',
+  'bank_type' => 'CCB_DEBIT',
+  'cash_fee' => '2960',
+  'fee_type' => 'CNY',
+  'is_subscribe' => 'N',
+  'mch_id' => '1494678572',
+  'nonce_str' => '82392035482449eef7e332dc48ceae26',
+  'openid' => 'ofFaL5Tc-ZfC8A3jUMyKerlzKMg4',
+  'out_trade_no' => '2019072049539848',
+  'result_code' => 'SUCCESS',
+  'return_code' => 'SUCCESS',
+  'sign' => '897ACB5B4D0DA9B0F9BBD5D58123D2B7',
+  'time_end' => '20190720215414',
+  'total_fee' => '2960',
+  'trade_type' => 'JSAPI',
+  'transaction_id' => '4200000345201907202160225333',
+)
+[ yoshop-info ] array (
+  'describe' => '发送模板消息',
+  'url' => 'https://api.weixin.qq.com/cgi-bin/message/wxopen/template/send?access_token=23_Ne-DIzAD_AcZI9uRXvNc-b7MdWLBiJXCPDT1SUAuylYdTmY5ceMgqkwl7CltyeDkfORTB2rHOgdv7cpEBSdi-kay7P1KLbeqy-LdC3dPPljaEfvKK3RxPD6QgeW-2WBM4G3e5da7Dp6SqyjtXNDbAAAOEU',
+  'params' => 
+  array (
+    'touser' => 'ofFaL5Tc-ZfC8A3jUMyKerlzKMg4',
+    'template_id' => 'R7M9VGUPM4c29NXvzs_fdmE5f69X2PWC3qYTp0CBLjc',
+    'page' => 'pages/order/detail?order_id=10294',
+    'form_id' => 'wx2021540960952693ba19640d1674112100',
+    'data' => 
+    array (
+      'keyword1' => 
+      array (
+        'value' => '2019072049539848',
+        'color' => '#333333',
+      ),
+      'keyword2' => 
+      array (
+        'value' => '2019-07-20 21:54:15',
+        'color' => '#333333',
+      ),
+      'keyword3' => 
+      array (
+        'value' => '29.60',
+        'color' => '#333333',
+      ),
+      'keyword4' => 
+      array (
+        'value' => '新鲜紫皮无花果500g/19.8 ',
+        'color' => '#333333',
+      ),
+    ),
+  ),
+  'result' => '{"errcode":40037,"errmsg":"invalid template_id hint: [908553114]"}',
+)
+[ yoshop-info ] array (
+  'describe' => '返回微信支付状态',
+  'data' => 
+  array (
+    'return_code' => 'SUCCESS',
+    'return_msg' => 'OK',
+  ),
+)
+---------------------------------------------------------------
+[ 2019-07-20T22:01:54+08:00 ] 61.158.148.7 GET jqg.wanheezg.com/index.php?s=/api/order/buyNow&delivery=0&shop_id=10039&coupon_id=0&goods_id=10161&goods_num=2&goods_sku_id=0&wxapp_id=10001&token=05df9e5d4a12a1703e988054d1828796
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563544914 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563544914 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563544914 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563544914 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T22:19:16+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563545956 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563545956 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563545956 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563545956 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T22:19:18+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T22:48:43+08:00 ] 117.136.36.165 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=505704024f877ff738e8f745deaf7a12
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563547723 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563547723 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563547723 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563547723 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T22:49:58+08:00 ] 61.158.152.249 GET jqg.wanheezg.com/index.php?s=/api/cart/lists&wxapp_id=10001&token=7418bbda9ff57361bd6b75a2b4035a74
+[ yoshop-info ] UserCoupon --setExpired --couponIds []
+---------------------------------------------------------------
+[ 2019-07-20T22:49:59+08:00 ] 61.158.152.249 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=7418bbda9ff57361bd6b75a2b4035a74
+[ yoshop-info ] array (
+  'describe' => '获取小程序码',
+  'params' => 
+  array (
+    'scene' => 'uid:10197',
+    'width' => 280,
+    'page' => 'pages/store/check/all',
+  ),
+  'result' => 'image',
+)
+---------------------------------------------------------------
+[ 2019-07-20T22:50:26+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Order --close --close_days 1 --deadline_time 1563547826 --orderIds []
+[ yoshop-info ] behavior sharing Order --receive --receive_days 1 --deadline_time 1563547826 --orderIds []
+[ yoshop-info ] behavior sharing Order --setIncUserExpend --refund_days 1 --deadline_time 1563547826 --orderIds [] --userDatas []
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T22:50:40+08:00 ] 171.10.172.168 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=4d595d006ff5ba5985cbe716cdf68937
+[ yoshop-info ] array (
+  'describe' => '获取小程序码',
+  'params' => 
+  array (
+    'scene' => 'uid:10198',
+    'width' => 280,
+    'page' => 'pages/store/check/all',
+  ),
+  'result' => 'image',
+)
+---------------------------------------------------------------
+[ 2019-07-20T22:50:44+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T22:52:21+08:00 ] 117.136.36.165 GET jqg.wanheezg.com/index.php?s=/api/page/qrcode&shop_id=10046&wxapp_id=10001&token=505704024f877ff738e8f745deaf7a12
+[ yoshop-info ] array (
+  'describe' => '获取小程序码',
+  'params' => 
+  array (
+    'scene' => 'shopid:10046,uid:10126',
+    'width' => 280,
+  ),
+  'result' => 'image',
+)
+---------------------------------------------------------------
+[ 2019-07-20T22:52:21+08:00 ] 117.136.36.165 GET jqg.wanheezg.com/index.php?s=/api/page/qrcode&shop_id=10046&wxapp_id=10001&token=505704024f877ff738e8f745deaf7a12
+[ yoshop-info ] array (
+  'describe' => '获取小程序码',
+  'params' => 
+  array (
+    'scene' => 'shopid:10046,uid:10126',
+    'width' => 280,
+  ),
+  'result' => 'image',
+)
+---------------------------------------------------------------
+[ 2019-07-20T22:57:25+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T22:58:45+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563548325 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563548325 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563548325 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563548325 --orderIds [] --userDatas []
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T22:59:00+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T23:06:25+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T23:07:04+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T23:08:49+08:00 ] 120.227.45.3 GET jqg.wanheezg.com/index.php?s=/api/cart/lists&wxapp_id=10001&token=3a3ca9fd06f342658bd199903f7f0a2a
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563548929 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563548929 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563548929 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563548929 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T23:08:51+08:00 ] 120.227.45.3 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=3a3ca9fd06f342658bd199903f7f0a2a
+[ yoshop-info ] array (
+  'describe' => '获取小程序码',
+  'params' => 
+  array (
+    'scene' => 'uid:10200',
+    'width' => 280,
+    'page' => 'pages/store/check/all',
+  ),
+  'result' => 'image',
+)
+---------------------------------------------------------------
+[ 2019-07-20T23:10:02+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T23:10:20+08:00 ] 223.88.0.241 GET jqg.wanheezg.com/index.php?s=/api/shop.clerk/center&wxapp_id=10001&token=fa10238671dedcce768818fe7c0e9d37
+[ yoshop-info ] behavior sharing Active --onSetActiveEnd --activeIds []
+[ yoshop-info ] behavior sharing Active --onOrderRefund --orderIds []
+---------------------------------------------------------------
+[ 2019-07-20T23:24:02+08:00 ] 61.52.31.101 GET jqg.wanheezg.com/index.php?s=/api/cart/lists&wxapp_id=10001&token=5a3ecfc2cd66fca7d0b53f40e97043f2
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563549842 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563549842 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563549842 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563549842 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T23:24:04+08:00 ] 61.52.31.101 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=5a3ecfc2cd66fca7d0b53f40e97043f2
+[ yoshop-info ] array (
+  'describe' => '获取access_token',
+  'url' => 'https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx1607c34e8bf483ad&secret=6a0ad7d8579db45b2c5b1f6880bf1cb8',
+  'appId' => 'wx1607c34e8bf483ad',
+  'result' => '{"access_token":"23_D8Gg85glYSonOrLgBOGr-wb19OC-qLmJ4aTqmEcmyLgsFNgrt7QT0exMUjxo-leqhqXlmHucInwj9ma0TDW9lXsVCT8h94RFv6H-wrNNDEb0Gbp-G4ufsiQEzOu33PQNyHCf__kcYOHWnOS2KYBgABAQEH","expires_in":7200}',
+)
+[ yoshop-info ] array (
+  'describe' => '获取小程序码',
+  'params' => 
+  array (
+    'scene' => 'uid:10189',
+    'width' => 280,
+    'page' => 'pages/store/check/all',
+  ),
+  'result' => 'image',
+)
+---------------------------------------------------------------
+[ 2019-07-20T23:43:03+08:00 ] 117.136.36.165 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=505704024f877ff738e8f745deaf7a12
+[ yoshop-info ] behavior Order --close --close_days 1 --deadline_time 1563550983 --orderIds []
+[ yoshop-info ] behavior Order --receive --receive_days 1 --deadline_time 1563550983 --orderIds []
+[ yoshop-info ] behavior Order --transfer --transfer_days 1 --deadline_time 1563550983 --orderIds [10191]
+[ yoshop-info ] behavior Order --setIncUserExpend --refund_days 1 --deadline_time 1563550983 --orderIds [] --userDatas []
+---------------------------------------------------------------
+[ 2019-07-20T23:52:14+08:00 ] 223.88.36.81 GET jqg.wanheezg.com/index.php?s=/api/user.index/detail&wxapp_id=10001&token=10022a4c8ce21f04408a8ead9f04a802
+[ yoshop-info ] UserCoupon --setExpired --couponIds []

@@ -1,0 +1,4 @@
+<?php
+//000001296000
+ exit();?>
+a:6:{s:7:"10016_0";a:4:{s:8:"goods_id";s:5:"10016";s:9:"goods_num";i:3;s:12:"goods_sku_id";s:1:"0";s:11:"create_time";i:1563161263;}s:11:"10032_10035";a:4:{s:8:"goods_id";s:5:"10032";s:9:"goods_num";i:1;s:12:"goods_sku_id";s:5:"10035";s:11:"create_time";i:1562981720;}s:7:"10035_0";a:4:{s:8:"goods_id";s:5:"10035";s:9:"goods_num";i:5;s:12:"goods_sku_id";s:1:"0";s:11:"create_time";i:1562986524;}s:7:"10053_0";a:4:{s:8:"goods_id";s:5:"10053";s:9:"goods_num";i:1;s:12:"goods_sku_id";s:1:"0";s:11:"create_time";i:1563086974;}s:7:"10054_0";a:4:{s:8:"goods_id";s:5:"10054";s:9:"goods_num";i:2;s:12:"goods_sku_id";s:1:"0";s:11:"create_time";i:1563161115;}s:7:"10017_0";a:4:{s:8:"goods_id";s:5:"10017";s:9:"goods_num";i:1;s:12:"goods_sku_id";s:1:"0";s:11:"create_time";i:1563161261;}}

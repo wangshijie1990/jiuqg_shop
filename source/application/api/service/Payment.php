@@ -27,6 +27,7 @@ class Payment
                 $user,
                 $order['order_id'],
                 $order['order_no'],
+                $order['user_id'],
                 $order['pay_price'],
                 OrderTypeEnum::MASTER
             );
