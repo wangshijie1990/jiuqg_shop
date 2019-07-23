@@ -56,6 +56,7 @@ class Recharge extends Controller
             $userInfo,
             $model['order_id'],
             $model['order_no'],
+            $model['user_id'],
             $model['pay_price'],
             OrderTypeEnum::RECHARGE
         );

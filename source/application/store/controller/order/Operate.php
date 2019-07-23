@@ -35,10 +35,51 @@ class Operate extends Controller
      * @throws \think\exception\DbException
      */
     public function export($dataType)
-    {
+    {   
         return $this->model->exportList($dataType, $this->request->param());
     }
-
+	/**
+     * 订单打印
+     * @param $order_data
+     * @throws \think\exception\DbException
+     */
+    public function printOrder($order_data)
+    {
+        $orderInfo = $this->model->printList('transfer', $order_data);
+      	$repenseData = array(
+        	'linkman' => '陈洪刚',
+          	'create_time'=>date("Y-m-d",time()),
+          	'finish_time'=>date("Y-m-d",time()),
+        );
+      	$repenseData['html'] = '<div id="form"><table border="1"  cellpadding="0" cellspacing="0" style="text-align: center;margin: 0 auto;line-height: 40px;" width="100%">
+            <caption>
+                    <h3>采购单</h3>
+                    <div style="display: flex;justify-content: space-between;">
+                        <span>创建时间:'.$repenseData['create_time'].'</span>
+                        <span>计划交货日期:'.$repenseData['finish_time'].'</span>
+                        <span>采购员:'.$repenseData['linkman'].'</span>
+                    </div>
+            </caption>
+        <tr>
+            <td>序号</td>
+            <td>商品名称</td>
+            <td>单位</td>
+            <td>订单汇总量</td>
+            <td>采购数</td>
+        </tr>';
+        foreach($orderInfo as $key=>$val){
+        	$repenseData['html'] .="<tr>
+            <td>".($key+1)."</td>
+            <td>".$val['goods_name']."</td>
+            <td>份</td>
+            <td></td>
+            <td>".$val['total_num']."</td>
+        </tr>" ;   
+        }
+      	$repenseData['html'] .= '</table></div>';
+        return json($repenseData);
+    }
+  
     /**
      * 批量发货
      * @return array|bool|mixed

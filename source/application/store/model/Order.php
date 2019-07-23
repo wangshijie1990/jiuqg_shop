@@ -3,7 +3,7 @@
 namespace app\store\model;
 
 use app\common\model\Order as OrderModel;
-
+use think\Db;
 use app\store\model\UserCoupon as UserCouponModel;
 use app\common\enum\OrderType as OrderTypeEnum;
 use app\common\enum\DeliveryType as DeliveryTypeEnum;
@@ -54,6 +54,7 @@ class Order extends OrderModel
      */
     public function getListAll($dataType, $query = [])
     {
+       
         // 检索查询条件
         !empty($query) && $this->setWhere($query);
         // 获取数据列表
@@ -66,7 +67,36 @@ class Order extends OrderModel
             ->order(['order.create_time' => 'desc'])
             ->select();
     }
-
+  	/**
+     * 订单打印
+     * @param $dataType
+     * @param $query
+     * @throws \think\db\exception\DataNotFoundException
+     * @throws \think\db\exception\ModelNotFoundException
+     * @throws \think\exception\DbException
+     */
+    public function printList($dataType, $query)
+    { 	
+        // 检索查询条件
+        !empty($query) && $this->setWhere($query);
+        // 获取数据列表
+        $result= $this->with(['goods.image', 'address', 'user', 'extract_shop'])
+            ->alias('order')
+            ->field('order.*')
+            ->join('user', 'user.user_id = order.user_id')
+            ->where($this->transferDataType($dataType))
+            ->where('order.is_delete', '=', 0)
+            ->order(['order.create_time' => 'desc'])
+            ->select()->toArray();
+      $orderArr = [];
+         foreach($result as $val){
+           $orderArr[] =$val['order_id'];
+         }
+     
+      $goodlist = Db::table('yoshop_order_goods')->where('order_id', 'in',$orderArr)->field('sum(total_num) as total_num,goods_name')->group('goods_id')->select()->toArray();
+      return $goodlist;
+    }
+	
     /**
      * 订单导出
      * @param $dataType
@@ -207,14 +237,15 @@ class Order extends OrderModel
                     'pay_status' => 20,
                     'delivery_status' => 10,
                     'transfer_status' => 10,
-                    'extract_shop_id'=>['>',0]
+                    'extract_shop_id'=>['>',0],
+                    'order_status'=>['<>',20]
                 ];
                 break;
             case 'delivery':
                 $filter = [
                     'pay_status' => 20,
                     'delivery_status' => 10,
-                    'extract_shop_id'=>0,
+                    //'extract_shop_id'=>0,
                     'order_status' => ['in', [10, 21]]
                 ];
                 break;
