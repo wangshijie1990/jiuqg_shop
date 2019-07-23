@@ -5,6 +5,7 @@ namespace app\store\controller\order;
 use app\store\controller\Controller;
 use app\store\model\Order as OrderModel;
 use app\store\model\Express as ExpressModel;
+use think\Db;
 
 /**
  * 订单操作控制器
@@ -39,7 +40,7 @@ class Operate extends Controller
         return $this->model->exportList($dataType, $this->request->param());
     }
 	/**
-     * 订单打印
+     * 采购订单打印
      * @param $order_data
      * @throws \think\exception\DbException
      */
@@ -79,7 +80,24 @@ class Operate extends Controller
       	$repenseData['html'] .= '</table></div>';
         return json($repenseData);
     }
-  
+    /**
+     * 分拣单打印
+     * @param $order_data
+     * @throws \think\exception\DbException
+     */
+    public function sortPrintOrder($order_data)
+    {
+        $orderInfo = $this->model->getListAll($order_data['dataType'], $order_data)->toArray();
+        $repenseData = [];
+        foreach ($orderInfo as $key=>$val){
+            foreach ($val['goods'] as $m=>$n){
+                //获取自提信息
+                $liftInfo =  Db::table('yoshop_order_extract')->where('order_id', '=',$val['order_id'])->field('linkman,phone')->find();
+                $repenseData[$key]['html'] = '<ul><li>商品名称：'.$n['goods_name'].'</li><li>配送日期：'.date('m/d',time()).'</li><li>数量：×'.$n['total_num'].'</li><li>单位：份</li><li>会员：'.$liftInfo['linkman'].'</li><li>电话：'.$liftInfo['phone'].'</li><li>团长：'.$val['extract_shop']['shop_name'].'</li></ul>';
+            }
+        }
+        return json($repenseData);
+    }
     /**
      * 批量发货
      * @return array|bool|mixed

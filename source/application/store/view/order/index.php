@@ -48,6 +48,12 @@ use app\common\enum\DeliveryType as DeliveryTypeEnum;
                                                     <i class="iconfont icon-daochu am-margin-right-xs"></i>打印采购单
                                                 </a>
                                             <?php endif; ?>
+                                            <?php if (checkPrivilege('order.operate/sortPrintOrder')): ?>
+                                                <a class="s-print am-btn am-btn-secondary am-radius"
+                                                   href="javascript:void(0);">
+                                                    <i class="iconfont icon-daochu am-margin-right-xs"></i>打印分拣单
+                                                </a>
+                                            <?php endif; ?>
                                         </div>
                                     </div>
                                 </div>
@@ -283,7 +289,7 @@ use app\common\enum\DeliveryType as DeliveryTypeEnum;
             window.location = "<?= url('order.operate/export') ?>" + '&' + $.urlEncode(data);
         });
         /**
-         * 订单打印
+         * 采购单订单打印
          */
         $('.r-print').click(function () {
 			//var orderId = $(this).data('id');
@@ -308,6 +314,38 @@ use app\common\enum\DeliveryType as DeliveryTypeEnum;
 						LODOP.ADD_PRINT_HTM(0,0,"100%","100%",response.html);
 						LODOP.PREVIEW();
                      }
+                })
+            }catch(err){
+            }
+        });
+        /**
+         * 分拣单打印
+         */
+        $('.s-print').click(function () {
+            //var orderId = $(this).data('id');
+            //检测是否安装控件
+            try{
+                var LODOP = getLodop();
+                if (!LODOP.VERSION) {
+                    layer.alert("本机未成功安装了Lodop控件！");
+                };
+                var data = {};
+                var formData = $('#form-search').serializeArray();
+                $.each(formData, function () {
+                    this.name !== 's' && (data[this.name] = this.value);
+                });
+                $.ajax({
+                    type: "GET",
+                    url: "<?= url('order.operate/sortPrintOrder') ?>",
+                    data: {order_data:data},
+                    dataType: "json",
+                    success: function(response){
+                        $.each(response,function (index,val){
+                            LODOP.PRINT_INIT("打印控件功能演示_Lodop功能_全页");
+                            LODOP.ADD_PRINT_HTM(0,0,"100%","100%",val.html);
+                            LODOP.PRINT();
+                        })
+                    }
                 })
             }catch(err){
             }
