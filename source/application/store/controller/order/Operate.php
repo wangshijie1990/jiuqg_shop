@@ -45,7 +45,7 @@ class Operate extends Controller
      */
     public function printOrder($order_data)
     {
-        $orderInfo = $this->model->printList('transfer', $order_data);
+        $orderInfo = $this->model->printList($order_data['dataType'], $order_data);
       	$repenseData = array(
         	'linkman' => '陈洪刚',
           	'create_time'=>date("Y-m-d",time()),
