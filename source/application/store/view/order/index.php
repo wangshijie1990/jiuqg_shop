@@ -54,6 +54,12 @@ use app\common\enum\DeliveryType as DeliveryTypeEnum;
                                                     <i class="iconfont icon-daochu am-margin-right-xs"></i>打印分拣单
                                                 </a>
                                             <?php endif; ?>
+                                            <?php if (checkPrivilege('order.operate/sendPrintOrder')): ?>
+                                                <a class="sd-print am-btn am-btn-secondary am-radius"
+                                                   href="javascript:void(0);">
+                                                    <i class="iconfont icon-daochu am-margin-right-xs"></i>打印配送单
+                                                </a>
+                                            <?php endif; ?>
                                         </div>
                                     </div>
                                 </div>
@@ -337,6 +343,38 @@ use app\common\enum\DeliveryType as DeliveryTypeEnum;
                 $.ajax({
                     type: "GET",
                     url: "<?= url('order.operate/sortPrintOrder') ?>",
+                    data: {order_data:data},
+                    dataType: "json",
+                    success: function(response){
+                        $.each(response,function (index,val){
+                            LODOP.PRINT_INIT("打印控件功能演示_Lodop功能_全页");
+                            LODOP.ADD_PRINT_HTM(0,0,"100%","100%",val.html);
+                            LODOP.PRINT();
+                        })
+                    }
+                })
+            }catch(err){
+            }
+        });
+        /**
+         * 配送单打印
+         */
+        $('.sd-print').click(function () {
+            //var orderId = $(this).data('id');
+            //检测是否安装控件
+            try{
+                var LODOP = getLodop();
+                if (!LODOP.VERSION) {
+                    layer.alert("本机未成功安装了Lodop控件！");
+                };
+                var data = {};
+                var formData = $('#form-search').serializeArray();
+                $.each(formData, function () {
+                    this.name !== 's' && (data[this.name] = this.value);
+                });
+                $.ajax({
+                    type: "GET",
+                    url: "<?= url('order.operate/sendPrintOrder') ?>",
                     data: {order_data:data},
                     dataType: "json",
                     success: function(response){

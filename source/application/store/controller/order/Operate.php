@@ -81,10 +81,10 @@ class Operate extends Controller
         return json($repenseData);
     }
     /**
-     * 分拣单打印
-     * @param $order_data
-     * @throws \think\exception\DbException
-     */
+ * 分拣单打印
+ * @param $order_data
+ * @throws \think\exception\DbException
+ */
     public function sortPrintOrder($order_data)
     {
         $orderInfo = $this->model->getListAll($order_data['dataType'], $order_data)->toArray();
@@ -93,8 +93,100 @@ class Operate extends Controller
             foreach ($val['goods'] as $m=>$n){
                 //获取自提信息
                 $liftInfo =  Db::table('yoshop_order_extract')->where('order_id', '=',$val['order_id'])->field('linkman,phone')->find();
-                $repenseData[$key]['html'] = '<ul><li>商品名称：'.$n['goods_name'].'</li><li>配送日期：'.date('m/d',time()).'</li><li>数量：×'.$n['total_num'].'</li><li>单位：份</li><li>会员：'.$liftInfo['linkman'].'</li><li>电话：'.$liftInfo['phone'].'</li><li>团长：'.$val['extract_shop']['shop_name'].'</li></ul>';
+                $repenseData[$key]['html'] = '<ul style="line-height:50px; list-style:none;"><li>商品名称：'.$n['goods_name'].'</li><li>配送日期：'.date('m/d',time()).'</li><li>数量：×'.$n['total_num'].'</li><li>单位：份</li><li>会员：'.$liftInfo['linkman'].'</li><li>电话：'.$liftInfo['phone'].'</li><li>团长：'.$val['extract_shop']['shop_name'].'</li></ul>';
             }
+        }
+        return json($repenseData);
+    }
+    /**
+     * 配送单打印
+     * @param $order_data
+     * @throws \think\exception\DbException
+     */
+    public function sendPrintOrder($order_data)
+    {
+        $orderInfo = $this->model->getListAll($order_data['dataType'], $order_data)->toArray();
+        $data = [];
+        $shopArr = [];
+        foreach ($orderInfo as $v){
+            $shopInfo = $v['extract_shop'];
+            //获取自提信息
+            $liftInfo =  Db::table('yoshop_order_extract')->where('order_id', '=',$v['order_id'])->field('linkman,phone')->find();
+            //判断店铺是否重复
+            if(in_array($shopInfo['shop_id'],$shopArr)){
+                foreach ($v['goods'] as $val){
+                    $data[$shopInfo['shop_id']]['goods'][]= [
+                        'linkman'=>$liftInfo['linkman'],
+                        'phone'=>$liftInfo['phone'],
+                        'goods_name'=>$val['goods_name'],
+                        'total_num'=>$val['total_num'],
+                        'goods_price'=>$val['goods_price'],
+                        'total_price'=>$val['total_price']
+                    ];
+                }
+                continue;
+            }
+            $shopArr[] = $shopInfo['shop_id'];
+            $data[$shopInfo['shop_id']]=[
+                'shop_name'=>$shopInfo['shop_name'],
+                'linkman'=>$shopInfo['linkman'],
+                'phone'=>$shopInfo['phone'],
+                'address'=>$shopInfo['address'],
+                'region'=>$shopInfo['region']['region'],
+                'send_time'=>date('Y-m-d',time()),
+            ];
+            foreach ($v['goods'] as $val){
+                $data[$shopInfo['shop_id']]['goods'][] = [
+                    'linkman'=>$liftInfo['linkman'],
+                    'phone'=>$liftInfo['phone'],
+                    'goods_name'=>$val['goods_name'],
+                    'total_num'=>$val['total_num'],
+                    'goods_price'=>$val['goods_price'],
+                    'total_price'=>$val['total_price']
+                ];
+            }
+        }
+        $repenseData = [];
+        foreach ($data as $key=>$val){
+            $repenseData[$key]['html'] = '<table border="1"  cellpadding="0" cellspacing="0" style="text-align: center;margin: 0 auto;line-height: 40px;" width="100%">
+            <caption>
+                    <h3>配送单</h3>
+                    <div style="display: flex;justify-content: space-between;">
+                        <span>自提店名称:'.$val['shop_name'].'</span>
+                        <span>配送日期:'.$val['send_time'].'</span>
+                        <span>配送区域：'.$val['region'].'</span>
+                    </div>
+                    <div style="text-align: left">
+                        <span style="margin-right: 20px">团长:'.$val['linkman'].'</span>
+                        <span>团长手机:'.$val['phone'].'</span>
+                    </div>
+                    <div style="text-align: left">
+                        <span>详细地址:'.$val['address'].'</span>
+                    </div>
+            </caption> 
+            <tr>
+                <td>序号</td>
+                <td>会员名称</td>
+                <td>会员手机</td>
+                <td>商品名称</td>
+                <td>订购数量</td>
+                <td>取货</td>
+                <td>订购单价</td>
+                <td>下单小计</td>
+            </tr>';
+            foreach ($val['goods'] as $m=>$n){
+                $repenseData[$key]['html'] .='<tr>
+                    <td>'.($m+1).'</td>
+                    <td>'.$n['linkman'].'</td>
+                    <td>'.$n['phone'].'</td>
+                    <td>'.$n['goods_name'].'</td>
+                    <td>'.$n['total_num'].'</td>
+                    <td><input type="checkbox"/></td>
+                    <td>￥'.$n['goods_price'].'</td>
+                    <td>￥'.$n['total_price'].'</td>
+                </tr>' ;
+            }
+            $repenseData[$key]['html'] .= '</table></div>';
         }
         return json($repenseData);
     }
