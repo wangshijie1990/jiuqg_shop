@@ -34,7 +34,15 @@ class Withdraw extends BaseModel
         40 => '已打款',
     ];
 
-
+    /**
+     * 关联用户表
+     * @return \think\model\relation\BelongsTo
+     */
+    public function user()
+    {
+        $module = self::getCalledModule() ?: 'common';
+        return $this->belongsTo("app\\{$module}\\model\\User");
+    }
     /**
      * 提现详情
      * @param $id
@@ -43,7 +51,7 @@ class Withdraw extends BaseModel
      */
     public static function detail($id)
     {
-        return self::get($id);
+        return self::get($id,['user']);
     }
 
 }

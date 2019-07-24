@@ -132,7 +132,8 @@ class Withdraw extends WithdrawModel
     public function wechatPay()
     {
         // 微信用户信息
-        $user = $this['user']['user'];
+        $user = $this['user'];
+
         // 生成付款订单号
         $orderNO = OrderService::createOrderNo();
         // 付款描述
@@ -140,6 +141,7 @@ class Withdraw extends WithdrawModel
         // 微信支付api：企业付款到零钱
         $wxConfig = WxappModel::getWxappCache();
         $WxPay = new WxPay($wxConfig);
+
         // 请求付款api
         if ($WxPay->transfers($orderNO, $user['open_id'], $this['money'], $desc)) {
             // 确认已打款
