@@ -147,8 +147,9 @@ class Operate extends Controller
             }
         }
         $repenseData = [];
+        $i=0;
         foreach ($data as $key=>$val){
-            $repenseData[$key]['html'] = '<table border="1"  cellpadding="0" cellspacing="0" style="text-align: center;margin: 0 auto;line-height: 40px;" width="100%">
+            $repenseData[$i]['html'] = '<table border="1"  cellpadding="0" cellspacing="0" style="text-align: center;margin: 0 auto;line-height: 30px;font-size: 16px" width="100%">
             <caption>
                     <h3>配送单</h3>
                     <div style="display: flex;justify-content: space-between;">
@@ -174,20 +175,45 @@ class Operate extends Controller
                 <td>订购单价</td>
                 <td>下单小计</td>
             </tr>';
+            $num = count($val['goods']);
             foreach ($val['goods'] as $m=>$n){
-                $repenseData[$key]['html'] .='<tr>
+                if($m>=25) break;
+                $repenseData[$i]['html'] .='<tr>
                     <td>'.($m+1).'</td>
                     <td>'.$n['linkman'].'</td>
                     <td>'.$n['phone'].'</td>
-                    <td>'.$n['goods_name'].'</td>
+                    <td style="line-height:18px;">'.$n['goods_name'].'</td>
                     <td>'.$n['total_num'].'</td>
                     <td><input type="checkbox"/></td>
                     <td>￥'.$n['goods_price'].'</td>
                     <td>￥'.$n['total_price'].'</td>
                 </tr>' ;
             }
-            $repenseData[$key]['html'] .= '</table></div>';
+            $repenseData[$i]['html'] .= '</table>';
+            $times = ceil($num/25)-1;
+            if($times>0){
+                for ($time=1;$time<=$times;$time++){
+                    $repenseData[$i+$time]['html'] = '<table border="1"  cellpadding="0" cellspacing="0" style="text-align: center;margin: 0 auto;line-height: 30px;font-size: 16px" width="100%">';
+                    for($j=(25*$time+1);$j<=25*($time+1);$j++){
+                            if($j>=$num) break;
+                            $repenseData[$i+$time]['html'] .='<tr>
+                                <td width="30px">'.($j).'</td>
+                                <td width="80px">'.$val['goods'][$j]['linkman'].'</td>
+                                <td>'.$val['goods'][$j]['phone'].'</td>
+                                <td style="line-height:18px;">'.$val['goods'][$j]['goods_name'].'</td>
+                                <td width="60px">'.$val['goods'][$j]['total_num'].'</td>
+                                <td><input type="checkbox"/></td>
+                                <td>￥'.$val['goods'][$j]['goods_price'].'</td>
+                                <td>￥'.$val['goods'][$j]['total_price'].'</td>
+                            </tr>' ;
+                    }
+                }
+                $repenseData[$i]['html'] .= '</table>';
+                $i += $time+1;
+            }
+            $i += 1;
         }
+
         return json($repenseData);
     }
     /**
