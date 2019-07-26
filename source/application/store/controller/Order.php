@@ -96,7 +96,7 @@ class Order extends Controller
         // 物流公司列表
         $expressList = ExpressModel::getAll();
         // 门店店员列表
-        $shopClerkList = (new ShopClerkModel)->getList(true);
+        $shopClerkList = (new ShopClerkModel)->getList(true, $detail['extract_shop_id']);
         return $this->fetch('detail', compact(
             'detail',
             'expressList',
