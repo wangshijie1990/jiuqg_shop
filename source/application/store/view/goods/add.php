@@ -83,6 +83,35 @@
                                 </div>
                             </div>
                             <div class="widget-head am-cf">
+                                <div class="widget-title am-fl">秒杀</div>
+                            </div>
+                            <div class="am-form-group">
+                                <label class="am-u-sm-3 am-u-lg-2 am-form-label form-require">秒杀状态 </label>
+                                <div class="am-u-sm-9 am-u-end change_spike">
+                                    <label class="am-radio-inline">
+                                        <input type="radio" name="goods[quick_open]" value="10" data-am-ucheck>
+                                        开启
+                                    </label>
+                                    <label class="am-radio-inline">
+                                        <input type="radio" name="goods[quick_open]" value="20" data-am-ucheck checked>
+                                        关闭
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="am-form-group am-padding-top spike">
+                                <label class="am-u-sm-3 am-u-lg-2 am-form-label"> 秒杀时间 </label>
+                                <div class="am-u-sm-9 am-u-md-6 am-u-lg-5 am-u-end">
+                                    <!-- 会员等级列表-->
+                                    <div class="am-input-group">
+                                        <input type="text" class="j-laydate-quick am-form-field"
+                                               name="goods[quick_time]"
+                                               placeholder="秒杀时间"
+                                               autocomplete="off"
+                                               value="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="widget-head am-cf">
                                 <div class="widget-title am-fl">规格/库存</div>
                             </div>
                             <div class="am-form-group">
@@ -176,6 +205,12 @@
                                             <div class="am-form-group">
                                                 <input type="number" v-model="batchData.line_price" placeholder="划线价">
                                             </div>
+                                            <div class="am-form-group spike">
+                                                <input type="number" v-model="batchData.spike_price" placeholder="秒杀价">
+                                            </div>
+                                            <div class="am-form-group spike">
+                                                <input type="number" v-model="batchData.spike_num" placeholder="限购数量">
+                                            </div>
                                             <div class="am-form-group">
                                                 <input type="number" v-model="batchData.stock_num" placeholder="库存数量">
                                             </div>
@@ -198,6 +233,8 @@
                                                 <th>商家编码</th>
                                                 <th>销售价</th>
                                                 <th>划线价</th>
+                                                <th class="spike">秒杀价</th>
+                                                <th class="spike">限购量</th>
                                                 <th>库存</th>
                                                 <th>重量(kg)</th>
                                             </tr>
@@ -229,6 +266,14 @@
                                                 <td>
                                                     <input type="number" class="ipt-w80" name="line_price"
                                                            v-model="item.form.line_price">
+                                                </td>
+                                                <td class="spike">
+                                                    <input type="number" class="ipt-w80" name="spike_price"
+                                                           v-model="item.form.spike_price">
+                                                </td>
+                                                <td class="spike">
+                                                    <input type="number" class="ipt-w80" name="spike_num"
+                                                           v-model="item.form.spike_num">
                                                 </td>
                                                 <td>
                                                     <input type="number" class="ipt-w80" name="stock_num"
@@ -265,6 +310,18 @@
                                     <label class="am-u-sm-3 am-u-lg-2 am-form-label">商品划线价 </label>
                                     <div class="am-u-sm-9 am-u-end">
                                         <input type="number" class="tpl-form-input" name="goods[sku][line_price]">
+                                    </div>
+                                </div>
+                                <div class="am-form-group spike">
+                                    <label class="am-u-sm-3 am-u-lg-2 am-form-label form-require" >商品秒杀价 </label>
+                                    <div class="am-u-sm-9 am-u-end">
+                                        <input type="number" class="tpl-form-input" name="goods[sku][spike_price]" required>
+                                    </div>
+                                </div>
+                                <div class="am-form-group spike">
+                                    <label class="am-u-sm-3 am-u-lg-2 am-form-label form-require">秒杀限购数量</label>
+                                    <div class="am-u-sm-9 am-u-end">
+                                        <input type="number" class="tpl-form-input" name="goods[sku][spike_num]" required>
                                     </div>
                                 </div>
                                 <div class="am-form-group">
@@ -326,35 +383,6 @@
                                 <div class="am-u-sm-9 am-u-end">
                                     <!-- 加载编辑器的容器 -->
                                     <textarea id="container" name="goods[content]" type="text/plain"></textarea>
-                                </div>
-                            </div>
-                            <div class="widget-head am-cf">
-                                <div class="widget-title am-fl">秒杀</div>
-                            </div>
-                            <div class="am-form-group">
-                                <label class="am-u-sm-3 am-u-lg-2 am-form-label form-require">秒杀状态 </label>
-                                <div class="am-u-sm-9 am-u-end">
-                                    <label class="am-radio-inline">
-                                        <input type="radio" name="goods[quick_open]" value="10" data-am-ucheck>
-                                        开启
-                                    </label>
-                                    <label class="am-radio-inline">
-                                        <input type="radio" name="goods[quick_open]" value="20" data-am-ucheck checked>
-                                        关闭
-                                    </label>
-                                </div>
-                            </div>
-                            <div class="am-form-group am-padding-top">
-                                <label class="am-u-sm-3 am-u-lg-2 am-form-label"> 秒杀时间 </label>
-                                <div class="am-u-sm-9 am-u-md-6 am-u-lg-5 am-u-end">
-                                    <!-- 会员等级列表-->
-                                    <div class="am-input-group">
-                                        <input type="text" class="j-laydate-quick am-form-field"
-                                               name="goods[quick_time]"
-                                               placeholder="秒杀时间"
-                                               autocomplete="off"
-                                               value="">
-                                    </div>
                                 </div>
                             </div>
                             <div class="widget-head am-cf">
@@ -750,6 +778,14 @@
             // e.currentTarget.value !== '0' ? $panelGradeAlone.hide() : $panelGradeAlone.show();
             $panelGradeAlone.toggle();
         });
-
+        //是否开启秒杀
+        var $spikeStatus = $('.spike');
+        $("input:radio[name='goods[quick_open]']").change(function (e) {
+            if($("input:radio[name='goods[quick_open]']:checked").val()==20){
+                $spikeStatus.hide();
+            }else{
+                $spikeStatus.show();
+            }
+        });
     });
 </script>
