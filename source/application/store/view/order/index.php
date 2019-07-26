@@ -347,10 +347,10 @@ use app\common\enum\DeliveryType as DeliveryTypeEnum;
                     dataType: "json",
                     success: function(response){
                         $.each(response,function (index,val){
-                            LODOP.PRINT_INIT("打印控件功能演示_Lodop功能_全页");
+                            LODOP.NewPage();
                             LODOP.ADD_PRINT_HTM(0,0,"100%","100%",val.html);
-                            LODOP.PRINT();
                         })
+                        LODOP.PRINT();
                     }
                 })
             }catch(err){

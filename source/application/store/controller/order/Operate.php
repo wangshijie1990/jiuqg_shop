@@ -93,7 +93,7 @@ class Operate extends Controller
             foreach ($val['goods'] as $m=>$n){
                 //获取自提信息
                 $liftInfo =  Db::table('yoshop_order_extract')->where('order_id', '=',$val['order_id'])->field('linkman,phone')->find();
-                $repenseData[]['html'] = '<ul style="line-height:60px; list-style:none;"><li>商品名称：'.$n['goods_name'].'</li><li>配送日期：'.date('m/d',time()).'</li><li>数量：×'.$n['total_num'].'</li><li>单位：份</li><li>会员：'.$liftInfo['linkman'].'</li><li>电话：'.$liftInfo['phone'].'</li><li>团长：'.$val['extract_shop']['shop_name'].'</li></ul>';
+                $repenseData[]['html'] = '<ul style="line-height:50px; list-style:none;"><li>商品名称：'.$n['goods_name'].'</li><li>配送日期：'.date('m/d',time()).'</li><li>数量：×'.$n['total_num'].'</li><li>单位：份</li><li>会员：'.$liftInfo['linkman'].'</li><li>电话：'.$liftInfo['phone'].'</li><li>团长：'.$val['extract_shop']['shop_name'].'</li></ul>';
             }
         }
         return json($repenseData);
